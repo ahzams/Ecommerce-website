@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/s-style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="top-container">
+        <div class="logo">
+            <img src="img/Shoez-logos_white.png" alt="">
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div onclick="login()" class="icons">
+                <span class="material-icons">account_circle</span>LOGIN/REGISTER
+            </div>
+        </nav>
+    </div>
+
+    <section id="form-container">
+        <div class="signin-signup" id="login">
+            <form action="" class="signin-form" id="sign-in">
+                <h1>Sign in</h1>
+                <div class="form-control">
+                    <i class="fas fa-user"></i>
+                    <input class="input-text" type="text" placeholder="Username">
+                </div>
+                <div class="form-control">
+                    <i class="fas fa-lock"></i>
+                    <input class="input-text" type="password" placeholder="Password">
+                </div>
+
+                <div class="login-btn">
+                    <button class="btn">Login</button>
+                </div>
+
+                <div class="platforms">
+                    <h4 class="f-weight" id="signup-link">Sign up?</h4>
+                    <h4 class="f-weight">Or Sign in with</h4>
+                    <div class="platform-login">
+                        <a href="#" target="blank" class="fa fa-facebook fa-2x"></a>
+                        <a href="#" target="blank" class="fa fa-google fa-2x"></a>
+                        <a href="#" target="blank" class="fa fa-linkedin fa-2x"></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="signin-signup">
+            <form action="" class="signup-form" id="sign-up">
+                <h1>Sign up</h1>
+                <div class="form-control">
+                    <i class="fas fa-user"></i>
+                    <input class="input-text" type="text" placeholder="Username">
+                </div>
+                <div class="form-control">
+                    <i class="fas fa-envelope"></i>
+                    <input class="input-text" type="email" placeholder="Email">
+                </div>
+                <div class="form-control">
+                    <i class="fas fa-lock"></i>
+                    <input class="input-text" type="password" placeholder="Password">
+                </div>
+
+                <div class="login-btn">
+                    <button class="btn">Sign up</button>
+                </div>
+
+                <div class="platforms">
+                    <h4 id="signin-link">Already have an account?Sign in.</h4>
+                    <h4>Or Sign up with</h4>
+                    <div class="platform-login">
+                        <a href="#" class="fa fa-facebook fa-2x"></a>
+                        <a href="#" class="fa fa-google fa-2x"></a>
+                        <a href="#" class="fa fa-linkedin fa-2x"></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/0c5425b219.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

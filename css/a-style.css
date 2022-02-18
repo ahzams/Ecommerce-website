@@ -1,0 +1,38 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 492px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+#about h3 {
+    color: #2ac37d;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 2px;
+}
+
+#about h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+#about::before {
+    content: '';
+    background: url('img-css/a-bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 567px;
+    width: 100%;
+    z-index: -1;
+}
+
+.made-dp img {
+    height: auto;
+    max-width: 30%;
+}

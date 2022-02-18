@@ -1,0 +1,210 @@
+#top-container {
+    background-color: #181a1b;
+    height: 10vh;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+}
+
+
+#shop-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 179px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+#shop-bg h2 {
+    color: white;
+    font-weight: 500;
+}
+
+#shop-bg::before{
+    content: '';
+    background: url('img-css/img2.png') no-repeat center center/cover;
+    position: absolute;
+    left: 0;
+    top: -60px;
+    height: 313px;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Shop items */
+
+#shop-items {
+    display: flex;
+    padding: 0 90px;
+    margin: 50px 70px;
+    background-color: #f6f9fb;
+}
+
+.section1{
+    margin: 10px 0;
+    /* border: 1px solid black; */
+    min-width: 23%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+hr {
+    margin: 40px 0;
+    opacity: 0.3;
+}
+
+.filter-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.filter-btn button{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+
+.filter-btn span {
+    font-size: 15px;
+}
+
+.filter-color {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.links a {
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.filter-size {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2{
+    /* border: 1px solid black; */
+    margin: 10px 0px;
+    min-width: 80%;
+}
+
+.nav-btns {
+    display: flex;
+    margin: 5px;
+}
+
+.nav-btns button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    font-weight: 500;
+    margin: 5px;
+    padding: 7px 14px;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.nav-btns span {
+    padding: 3px;
+    font-size: 15px;
+}
+
+.headings {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 21px;
+}
+
+.items-head {
+    color: #f75b5b;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.items {
+    display: flex;
+    cursor: pointer;
+}
+
+.image {
+    /* border: 1px solid black; */
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    height: auto;
+    max-width: 90%;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+    padding: 15px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+.description h2:not(.price) {
+    font-weight: 400;
+    color: rgb(22, 21, 21, 0.8);
+    transition: 0.2s;
+}
+
+.description h2:not(.price):hover {
+    color: #f75b5b;
+}
+
+.rating {
+    display: flex;
+    color: #f2c94c;
+}
+
+.no-color {
+    color: rgba(128, 128, 128, 0.3);
+}
+
+.rating span {
+    font-size: 1em;
+    padding: 1px;
+}
+
+.price {
+    color: #f75b5b;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.description button {
+    margin: 0;
+    transition: 0.5s;
+}
+
+.description button:hover {
+    background-color: rgb(54, 173, 54);
+}
+
+/* Utility classes */
+
+.space2 {
+    padding: 10px 0;
+}
+
+
+ 

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="upper-section">
+        <div id="top-container">
+
+            <div class="logo">
+                <img src="img/Shoez-logos_white.png" alt="">
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a class="current" href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div onclick="login()" class="icons">
+                    <span  class="material-icons">account_circle</span>LOGIN/REGISTER
+                </div>
+            </nav>
+        </div>
+        <div id="inside-content">
+            <div class="left-box">
+                <h4 style="padding: 5px 0px; " class="f-weight">Choose your suitable sneakers!</h4>
+                <h2 style="padding: 10px 0px; font-size: 50px;" class="f-weight">Nike Air with <span
+                        class="span-style">30%</span> discount!
+                </h2>
+                <h3 style="font-size: 15px;" class="f-weight f-style">Meet the shoes perfect suit to active
+                    lifestyle!<br>Your
+                    feet won't feel any fatigue!</h3>
+                <div class="buttons">
+                    <button class="btn">Buy Sneakers</button>
+                    <button class="btn btn2">Subscribe</button>
+                </div>
+            </div>
+            <div class="right-box">
+                <h1>NIKE</h1>
+                <img src="img/bg-1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="Products">
+        <div>
+            <h5 class="space">Products</h5>
+            <h1 class="space h-style">Top Choices!</h1>
+        </div>
+
+        <div id="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div id="redshoe" class="slide front">
+                    <img src="img/red/red.png" alt="">
+                    <h2>NIKE Viale (GS) AH5554 600 University Red/White</h2>
+                    <div class="price">
+                        <span style="text-decoration: line-through; color: gray;">₹ 8,215</span>
+                        <span>&#8377; 6,644</span>
+                    </div>
+                </div>
+                <div id="blueshoe" class="slide">
+                    <img src="img/blue/blue.png" alt="">
+                    <h2>NIKE Viale (GS) AH5554 400 Gym Blue/White</h2>
+                    <div class="price">
+                        <span style="margin: 0px 15px;">₹ 11,499</span>
+                    </div>
+                </div>
+                <div id="blackshoe" class="slide">
+                    <img src="img/black/black.png" alt="">
+                    <h2>NIKE Viale (GS) AH5554 001 Black</h2>
+                    <div class="price">
+                        <span style="margin: 0px 15px;">₹ 9,930</span>
+                    </div>
+                </div>
+                <di id="greyshoe" class="slide">
+                    <img src="img/gray/gray.png" alt="">
+                    <h2>NIKE Viale (GS) AH5554 500 University Gray</h2>
+                    <div class="price">
+                        <span style="margin: 0px 15px;">₹ 11,805</span>
+                    </div>
+            </div>
+
+            <div class="navigate-manual">
+                <label for="radio1" class="manual-btn" onmouseenter="ahzam('redshoe')" id="red"></label>
+                <label for="radio2" class="manual-btn" onmouseenter="ahzam('blueshoe')" id="blue"></label>
+                <label for="radio3" class="manual-btn" onmouseenter="ahzam('blackshoe')" id="black"></label>
+                <label for="radio4" class="manual-btn" onmouseenter="ahzam('greyshoe')" id="gray"></label>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="featured">
+        <div id="left-section">
+            <div class="head">
+                <h5>Featured</h5>
+                <h1 style="font-size: 40px;" class="f-weight">You'll like your new sneakers!</h1>
+            </div>
+            <div class="hr"></div>
+            <div class="para">
+                <h3 style="font-size: 16px;" class="f-weight"><i>Meet new brand sneakers, which fit for any weather
+                        conditions and have a stylish design.</i></h3>
+            </div>
+
+            <div class="list">
+                <ul>
+                    <div class="box1">
+
+                        <li>Engineered mesh upper;</li>
+                        <li>Trufuse midsole;</li>
+                        <li>Overlays;</li>
+                        <li>NDurance on the heel and toe;</li>
+                        <li>Any weather conditions;</li>
+                    </div>
+
+                    <div class="box2">
+
+                        <li>Easy care;</li>
+                        <li>Water resistant;</li>
+                        <li>Water resistant;</li>
+                        <li>Blown rubber outsole.</li>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+        <div id="right-section">
+            <img src="img/featured-img1.png" alt="">
+        </div>
+
+    </section>
+
+    <section id="discount">
+        <h5 class="space">Make an Order</h5>
+        <h1 style="font-size: 65px;" class="f-weight space">Get a <span class="span-style">30%</span> discount on<br>
+            your first order!</h1>
+        <button onclick="previous()" style="margin: 25px;" class="btn space">Buy Now!</button>
+    </section>
+
+    <section id="footer">
+        <div class="bg">
+
+            <div class="footer-box">
+                <div class="logo">
+                    <img src="img/Shoez-logos_white.png" alt="">
+                </div>
+                <div class="desc">
+                    Shoez is your place for athletic and casual shoes for the whole family from hundreds of name brands.
+                </div>
+
+                <div class="social">
+                    <a href="#" target="blank" class="fa fa-instagram fa-2x"></a>
+                    <a href="#" target="blank" class="fa fa-facebook fa-2x"></a>
+                    <a href="#" target="blank" class="fa fa-youtube fa-2x"></a>
+                    <a href="#" target="blank" class="fa fa-twitter fa-2x"></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <div class="h-secondary">
+                    Contact Us
+                </div>
+                <div class="info">
+                    <div class="add">
+                        <span class="material-icons">phone</span>7065511033
+                    </div>
+                    <div class="add">
+                        <span class="material-icons">place</span>New Delhi, Delhi-110025
+                    </div>
+                    <div class="add">
+                        <span class="material-icons">email</span><span><a
+                                href="mailto: ahzam183@gmail.com">ahzam183@gmail.com</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-box">
+                <div class="h-secondary">
+                    Subscribe
+                </div>
+                <div class="subscribe">
+                    <input type="email" name="" id="" placeholder="Your Email" class="input-field"><i class="fa fa-send"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/0c5425b219.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

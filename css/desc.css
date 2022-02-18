@@ -1,0 +1,203 @@
+#shop-products {
+    display: flex;
+    padding: 0 90px;
+    margin: 50px 70px;
+    /* background-color: #f6f9fb; */
+    /* border: 1px solid black; */
+
+}
+
+.left-container {
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+
+.appear {
+    /* border: 1px solid black; */
+    margin: 20px;
+}
+
+/* .top {
+    border: 1px solid black;
+    margin: 20px;
+} */
+
+img {
+    cursor: pointer;
+}
+
+.top img {
+    height: auto;
+    max-width: 100%;
+}
+
+.bottom {
+    /* border: 1px solid black; */
+    /* margin: 20px; */
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom img {
+    height: auto;
+    max-width: 100%;
+    margin: 5px;
+}
+
+.right-container {
+    /* border: 1px solid black; */
+    margin: 10px;
+    width: 80%;
+}
+
+.description {
+    width: 100%;
+}
+
+.text {
+    line-height: 25px;
+
+}
+
+.more-info {
+    margin: 25px 0;
+}
+
+.more-info span {
+    color: #f75b5b;
+}
+
+.more-info h5 {
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.more-info span a {
+    padding: 0 2px;
+    color: #f75b5b;
+    
+}
+
+.more-info span a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.quantity {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.quantity h4 {
+    font-weight: 500;
+}
+
+.quantity select, input {
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e4e4e4;
+    margin: 15px 0;
+}
+
+.quantity input {
+    width: 13%;
+}
+
+#mid-container {
+    /* border: 1px solid black; */
+    padding: 0 90px;
+    margin: 50px 70px;
+}
+
+.mid-nav {
+    border-bottom:black;
+    display: flex;
+}
+
+.mid-nav h4 {
+    margin-right: 20px;
+    color: black;
+    margin: 0 10px;
+    padding: 10px 0;
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+}
+
+/* .mid-nav a::after {
+    content: '';
+    background-color: #f75b5b;
+    position: absolute;
+    top: 829.5px;
+    height: 3px;
+    width: 0;
+}
+
+.mid-nav a::after:hover {
+    width: 100%;
+} */
+
+.mid-nav h4:hover {
+    color: #f75b5b;
+    cursor: pointer;
+}
+
+.alltime {
+    border-bottom: 3px solid white;
+}
+.navigate {
+    border-bottom: 3px solid #f75b5b;
+}
+
+
+.mid-info {
+    /* border: 1px solid black; */
+    padding: 10px;
+    height: 50vh;
+}
+
+.mid-info h1 {
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.mid-info p {
+    margin: 15px 0;
+} 
+
+.information {
+    transition: 0.5s;
+
+}
+
+.shop-attributes {
+    text-align: left;
+}
+
+.add-info{
+    display: none;
+    transition: 0.5s;
+}
+
+.add-info h3 {
+    margin: 15px 0;
+}
+
+table {
+    font-size: 1.1em;
+}
+
+table th {
+    padding-right: 25px ;
+}
+
+table th,td {
+    padding-top: 10px;
+
+}
+
+hr {
+    margin: 50px 160px;
+}

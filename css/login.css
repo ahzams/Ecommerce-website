@@ -1,0 +1,112 @@
+#form-container {
+    /* border: 1px solid black; */
+    margin: 10px;
+    padding: 10px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin-signup {
+    /* border: 1px solid black; */
+    padding: 10px;
+    text-align: center;
+    width: 500px;    
+}
+
+.signup-form {
+    display: none;
+}
+
+#signup-link, #signin-link {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+
+form {
+    /* border: 1px solid black; */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f6f9fb;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+form h1 {
+    padding: 10px 0;
+}
+
+.form-control {
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: #e4e4e4;
+    font-size: 1em;
+}
+
+.fas {
+    padding: 0 5px;
+}
+
+.login-btn {
+    /* border: 1px solid black; */
+    padding: 10px 14px;
+    margin: 12px 0;
+}
+
+.login-btn .btn {
+    width: 100%;
+    margin-left: 0;
+    background-color: rgb(40, 207, 116);
+    border-radius: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+}
+
+.platforms h4 {
+    /* border: 1px solid black; */
+    margin: 5px 0;
+    padding: 10px 0;
+    font-weight: 400;
+}
+
+.platform-login {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.platform-login a {
+    /* border: 1px ridge black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 46px;
+    width: 46px;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    background-color: #d8e6ee;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    color: black;
+}
+
+.platform-login a:hover {
+    color: rgb(62, 119, 145);
+}

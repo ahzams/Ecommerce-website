@@ -1,0 +1,75 @@
+#contact {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    padding: 40px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.container h1 {
+    margin: 15px 0;
+}
+
+.container h1::before {
+    content: 'CONTACT';
+    position: absolute;
+    top: 18%;
+    z-index: 0;
+    letter-spacing: 10px;
+    font-size: 4em;
+    color: rgba(179, 168, 168, 0.15);
+}
+
+.form-box {
+    margin: 40px 0;
+}
+
+.form-box label {
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+.form-box input {
+   padding: 15px;
+   border: none;
+   border-radius: 3px;
+   background-color: #e4e4e4;
+}
+
+.form-box textarea {
+   border: none;
+   background-color: #e4e4e4;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.form-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.form-btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    width: 40%;
+    padding: 15px 0;
+    background-color: #2ac37d;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.form-btn button:hover {
+    background-color:  rgba(42, 195, 125, 0.8);
+}
