@@ -25,3 +25,11 @@ addLink.addEventListener('click',function(){
     descLink.classList.remove('navigate')
     addLink.classList.add('navigate')
 })
+
+function home() {
+    window.location = 'index.html'
+}
+
+function login() {
+    window.location = 'login.html'
+}

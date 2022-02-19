@@ -40,6 +40,7 @@
     padding: 0 90px;
     margin: 50px 70px;
     background-color: #f6f9fb;
+    height: 165vh;
 }
 
 .section1{
@@ -54,6 +55,23 @@
 hr {
     margin: 40px 0;
     opacity: 0.3;
+}
+
+.price-slider {
+    margin: 5px 0;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #ddd;
+    position: relative;
+}
+
+.progress {
+    height: 8px;
+    border-radius: 5px;
+    background-color: #f75b5b;
+    position: absolute;
+    left: 5%;
+    right: 5%;
 }
 
 .filter-btn{
@@ -83,9 +101,9 @@ hr {
     margin: 10px 0;
 }
 
-.links a {
+.links li {
     margin: 5px 0;
-    text-decoration: none;
+    list-style: none;
 }
 
 .filter-size {
@@ -137,6 +155,15 @@ hr {
 .items {
     display: flex;
     cursor: pointer;
+}
+
+#rdesc {
+    display: none;
+}
+
+#prev-btn,#page-3 {
+    background-color: #f75b5b;
+    color: white;
 }
 
 .image {

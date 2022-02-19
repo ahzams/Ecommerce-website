@@ -7,33 +7,57 @@ function ahzam(temp) {
     prev = temp;
 }
 
-// let zoom = document.getElementsByClassName('zoom')
-// let plus = document.querySelector('.plus')
-
-// for(var i=0;i<zoom.length;i++){
-
-    
-    
-//     zoom[i].addEventListener('mouseenter',function(){
-//         plus.style.display = 'block';
-//     })
-    
-//     zoom[i].addEventListener('mouseleave', function(){
-//         plus.style.display = 'none'
-//     })
-// }
-
-
-function next(){
-    window.location='shop-page2.html';
+function home() {
+    window.location = 'index.html'
 }
 
-function previous(){
-    window.location='shop.html';
+let redDesc = document.getElementById('rdesc')
+let spItems = document.getElementById('shop-items')
+let navBtns = document.getElementById('nav-butns')
+let midBtn = document.getElementById('midBtn')
+let btn3 = document.getElementById('page-3')
+let prevBtn = document.getElementById('prev-btn')
+
+function next() {
+    // window.location = 'shop-page2.html';
+    redDesc.style.display = 'flex'
+    spItems.style.height = '60vh'
+    bItem.style.display = 'none'
+    blItem.style.display = 'none'
+    gItem.style.display = 'none'
+    navBtns.innerHTML = `<button onclick="previous()" onmouseenter="prevHover()" onmouseleave="prevHoverOut()" class="btn" id="prev-btn"><span class="material-icons-outlined">west</span>Previous</button>
+    <button onclick="previous()" onmouseenter="Hover()" onmouseleave="Hoverout()" class="btn" id="midBtn">1</button>
+    <button class="btn" id="page-3">2</button>`
+}
+
+function Hover() {
+    let midBtn = document.getElementById('midBtn')
+    midBtn.style.backgroundColor = '#f75b5b'
+    midBtn.style.color = 'white'
+}
+
+function Hoverout() {
+    let midBtn = document.getElementById('midBtn')
+    midBtn.style.backgroundColor = 'white'
+    midBtn.style.color = 'black'
+}
+
+function prevHover() {
+    let prevBtn = document.getElementById('prev-btn')
+    prevBtn.style.backgroundColor = 'rgba(0, 0, 0, 0.7)'
+}
+
+function prevHoverOut() {
+    let prevBtn = document.getElementById('prev-btn')
+    prevBtn.style.backgroundColor = '#f75b5b'
+}
+
+function previous() {
+    window.location = 'shop.html';
 }
 
 function login() {
-    window.location='login.html'
+    window.location = 'login.html'
 }
 
 function elaborate0() {
@@ -46,33 +70,79 @@ function elaborate2() {
     window.location = 'description-page3.html'
 }
 
+function elaborate3() {
+    window.location = 'description-page4.html'
+}
+
 
 let btn1 = document.getElementById('page-1')
 let btn2 = document.getElementById('page-2')
 let nextBtn = document.getElementById('next-btn')
 
-window.onload = function (){
+window.onload = function () {
     btn1.style.backgroundColor = "#f75b5b"
     btn1.style.color = 'white'
     nextBtn.style.backgroundColor = "#f75b5b"
     nextBtn.style.color = 'white'
 }
 
-function hover(){
+function hover() {
     btn2.style.backgroundColor = '#f75b5b'
     btn2.style.color = 'white'
 }
 
-function hoverout(){
+function hoverout() {
     btn2.style.backgroundColor = 'white'
     btn2.style.color = 'black'
 }
 
-function nextHover(){
+function nextHover() {
     nextBtn.style.backgroundColor = 'rgba(0, 0, 0, 0.7)'
 }
 
-function nextHoverOut (){
+function nextHoverOut() {
     nextBtn.style.backgroundColor = '#f75b5b'
 }
+
+let bItem = document.getElementById('bdesc')
+let blItem = document.getElementById('bldesc')
+let gItem = document.getElementById('gdesc')
+// let black = document.getElementById('b')
+// let blue = document.getElementById('bl')
+// let gray = document.getElementById('g')
+// let red = document.getElementById('r')
+
+// black.addEventListener('click', function () {
+//     blItem.style.display = 'none'
+//     gItem.style.display = 'none'
+//     btn1.style.display = 'none'
+//     btn2.style.display = 'none'
+//     nextBtn.style.display = 'none'
+//     blue.style.display = 'none'
+//     gray.style.display = 'none'
+//     red.style.display = 'none'
+// })
+
+// blue.addEventListener('click', function () {
+//     bItem.style.display = 'none'
+//     gItem.style.display = 'none'
+//     btn1.style.display = 'none'
+//     btn2.style.display = 'none'
+//     nextBtn.style.display = 'none'
+//     black.style.display = 'none'
+//     gray.style.display = 'none'
+//     red.style.display = 'none'
+// })
+
+// gray.addEventListener('click', function () {
+//     bItem.style.display = 'none'
+//     blItem.style.display = 'none'
+//     btn1.style.display = 'none'
+//     btn2.style.display = 'none'
+//     nextBtn.style.display = 'none'
+//     black.style.display = 'none'
+//     blue.style.display = 'none'
+//     red.style.display = 'none'
+// })
+
 

@@ -29,6 +29,7 @@
     /* height: 124px; */
     height: auto;
     max-width: 100%;
+    cursor: pointer;
 }
 
 #navbar {
@@ -50,6 +51,7 @@
     /* display: flex; */
     list-style: none;
     padding: 0 15px;
+    transition: 0.5s;
 }
 
 #navbar ul li a {
@@ -57,7 +59,6 @@
     color: white;
     font-size: 1.2em;
     padding: 5px 8px;
-    transition: 0.5s;
 }
 
 #navbar ul li a:hover:not(.current) {
@@ -68,6 +69,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    padding: 5px 8px;
 }
 
 .icons span {
@@ -107,7 +109,7 @@
 
 .btn2 {
     border: 1px solid white;
-    background-color: black;
+    background-color: #181a1b;
     transition: 0.5s;
 }
 
@@ -426,7 +428,7 @@
     font-size: 1.2em;
 }
 
-.fa-send:hover{
+#footer .fa-send:hover{
     color: #f75b5b;
     cursor: pointer;
 }
