@@ -39,8 +39,8 @@
     display: flex;
     padding: 0 90px;
     margin: 50px 70px;
-    background-color: #f6f9fb;
-    height: 165vh;
+    /* background-color: #f6f9fb; */
+    /* height: 165vh; */
 }
 
 .section1{
@@ -65,13 +65,11 @@ hr {
     position: relative;
 }
 
-.progress {
+.price-slider input {
     height: 8px;
-    border-radius: 5px;
-    background-color: #f75b5b;
+    width: 100%;
+    color: #f75b5b;
     position: absolute;
-    left: 5%;
-    right: 5%;
 }
 
 .filter-btn{
@@ -104,6 +102,22 @@ hr {
 .links li {
     margin: 5px 0;
     list-style: none;
+    cursor: pointer;
+    color: rgb(42, 76, 128);
+    transition: 0.3s;
+}
+
+#b:hover {
+    color: rgb(10, 3, 3);
+}
+#bl:hover {
+    color: rgb(74, 129, 211);
+}
+#g:hover {
+    color: gray;
+}
+#r:hover {
+    color: #f75b5b;
 }
 
 .filter-size {
@@ -140,7 +154,7 @@ hr {
     font-size: 15px;
 }
 
-.headings {
+#headings {
     display: flex;
     justify-content: space-between;
     margin: 0 21px;
@@ -191,6 +205,7 @@ hr {
 .description h2:not(.price) {
     font-weight: 400;
     color: rgb(22, 21, 21, 0.8);
+    cursor: pointer;
     transition: 0.2s;
 }
 

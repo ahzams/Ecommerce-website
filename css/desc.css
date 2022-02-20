@@ -76,7 +76,7 @@ img {
 .more-info span a {
     padding: 0 2px;
     color: #f75b5b;
-    
+    transition: 0.4s;
 }
 
 .more-info span a:hover {
@@ -102,8 +102,16 @@ img {
     margin: 15px 0;
 }
 
-.quantity input {
+.input-btns input {
     width: 13%;
+}
+
+.input-btns .btn {
+    margin: 0 10px;
+    padding: 16px;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    width: 20%;
 }
 
 #mid-container {
@@ -181,6 +189,14 @@ img {
     transition: 0.5s;
 }
 
+.reviews {
+    display: none;
+}
+
+.reviews h2 {
+    margin: 20px 0;
+}
+
 .add-info h3 {
     margin: 15px 0;
 }
@@ -200,4 +216,44 @@ table th,td {
 
 hr {
     margin: 50px 160px;
+}
+
+#desc-carousel {
+    padding: 0 90px;
+    margin: 50px 70px;
+}
+
+#desc-carousel h1 {
+    margin: 10px 8px;
+    padding: 10px 0;
+    font-weight: 400;
+}
+
+.img {
+    margin: 10px;
+    text-align: center;
+}
+
+.img h2{
+    color: rgb(22, 21, 21, 0.8);
+}
+
+.img h2,.other-price {
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.other-price {
+    color: #f75b5b;
+}
+
+.img img {
+    height: auto;
+    max-width: 100%;
+}
+
+#footer {
+    background-image: url('img-css/bg-3.jpg');
+    color: white;
+    max-height: 45vh;
 }

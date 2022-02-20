@@ -40,7 +40,6 @@
     /* border: 1px solid white; */
     padding: 8px;
     height: 8vh;
-    color: white;
 }
 
 #navbar ul {
@@ -51,25 +50,31 @@
     /* display: flex; */
     list-style: none;
     padding: 0 15px;
-    transition: 0.5s;
 }
 
 #navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: rgba(253, 244, 244, 0.3);
     font-size: 1.2em;
     padding: 5px 8px;
+    transition: 0.5s;
 }
 
 #navbar ul li a:hover:not(.current) {
-    color: rgb(212, 190, 190);
+    color: rgba(255, 255, 255, 0.89);
 }
 
 .icons{
     display: flex;
     align-items: center;
     cursor: pointer;
+    color: rgb(228, 207, 207);
     padding: 5px 8px;
+    transition: 0.5s;
+}
+
+.icons:hover {
+    color: white;
 }
 
 .icons span {
@@ -107,10 +112,20 @@
     cursor: pointer;
 }
 
+#inside-content .btn {
+    box-shadow: 0 0 30px #f75b5bd3;
+    transition: 0.5s;
+}
+
+#inside-content .btn:hover {
+    background-color: #f75b5bd0;
+}
+
 .btn2 {
+    box-shadow: 0 0 0 !important;
     border: 1px solid white;
     background-color: #181a1b;
-    transition: 0.5s;
+    transition: all 0.5s;
 }
 
 .btn2:hover {
@@ -283,7 +298,7 @@
     margin-left: 100px;
 }
 
-.head h5 {
+.head h4{
     margin: 25px 0;
     padding: 0 100px;
     
@@ -344,6 +359,17 @@
     height: 50vh;
 }
 
+#discount .btn {
+    padding: 12px;
+    font-size: 1em;
+    box-shadow: 0 0 50px #f75b5bde;
+    transition: 0.4s;
+}
+
+#discount .btn:hover {
+    background-color: #f75b5be3;
+}
+
 /* Footer */
 
 #footer {
@@ -375,7 +401,7 @@
 .footer-box img {
     height: auto;
     max-width: 124px;
-
+    
 }
 
 .desc {
@@ -458,7 +484,7 @@
 }
 
 .current {
-    background-color: rgb(170, 39, 39);
+    color: rgb(255, 255, 255) !important;
     border-radius: 8px;
 }
 
