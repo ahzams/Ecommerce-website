@@ -12,3 +12,6 @@ link_2.addEventListener('click',function(){
     sign_in.style.display = 'block'
 })
 
+function home() {
+    window.location = 'index.html'
+}
