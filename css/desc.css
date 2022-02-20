@@ -236,11 +236,19 @@ hr {
 
 .img h2{
     color: rgb(22, 21, 21, 0.8);
+    font-weight: 400;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
-.img h2,.other-price {
-    font-weight: 500;
+.img h2:hover{
+    color: #f75b5b;
+}
+
+.other-price {
     font-size: 1.3em;
+    font-weight: 500;
 }
 
 .other-price {

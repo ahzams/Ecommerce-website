@@ -73,3 +73,8 @@ function elaborate2() {
 function elaborate3() {
     window.location = 'description-page4.html'
 }
+
+function upper(temp, top) {
+    let topimg = document.getElementById(top);
+    topimg.src = temp;
+}

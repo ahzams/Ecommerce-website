@@ -44,6 +44,7 @@
 .form-box textarea {
    border: none;
    background-color: #e4e4e4;
+   padding: 15px;
 }
 
 .sub-container {
