@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/respnse-style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
@@ -15,32 +16,37 @@
 </head>
 
 <body>
-    <section id="upper-section">
-        <div id="top-container">
+    <!-- <section id="upper-section"> -->
+        <div class="top-container">
 
             <div class="logo">
                 <img onclick="home()" src="img/Shoez-logos_white.png" alt="">
             </div>
             <nav id="navbar">
-                <ul>
+                <ul class="nav-list v-class">
                     <li><a class="current" href="index.html">Home</a></li>
                     <li><a href="shop.html">Shop</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <div onclick="login()" class="icons">
+                <div onclick="login()" class="icons v-class">
                     <span class="material-icons">account_circle</span>LOGIN/REGISTER
+                </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
                 </div>
             </nav>
         </div>
-        <div id="inside-content">
+        <section id="inside-content">
             <div class="left-box">
-                <h4 style="padding: 5px 0px; " class="f-weight">Choose your suitable sneakers!</h4>
-                <h2 style="padding: 10px 0px; font-size: 50px;" class="f-weight">Nike Air with <span
+                <h4 style="padding: 5px 0px; font-size: 1em;" class="f-weight">Choose your suitable sneakers!</h4>
+                <h2 style="padding: 10px 0px; font-size: 3.125em;" class="f-weight">Nike Air with <span
                         class="span-style">30%</span> discount!
                 </h2>
-                <h3 style="font-size: 15px;" class="f-weight f-style">Meet the shoes perfect suit to active
+                <h3 style="font-size: 0.9375em;" class="f-weight f-style">Meet the shoes perfect suit to active
                     lifestyle!<br>Your
                     feet won't feel any fatigue!</h3>
                 <div class="buttons">
@@ -52,8 +58,8 @@
                 <h1>NIKE</h1>
                 <img src="img/bg-1.png" alt="">
             </div>
-        </div>
-    </section>
+        </section>
+    <!-- </section> -->
 
     <section id="Products">
         <div>
@@ -111,18 +117,18 @@
         <div id="left-section">
             <div class="head">
                 <h4>Featured</h4>
-                <h1 style="font-size: 40px;" class="f-weight">You'll like your new sneakers!</h1>
+                <h1 style="font-size: 2.5em;" class="f-weight">You'll like your new sneakers!</h1>
             </div>
             <div class="hr"></div>
             <div class="para">
-                <h3 style="font-size: 16px;" class="f-weight"><i>Meet new brand sneakers, which fit for any weather
+                <h3 style="font-size: 1em;" class="f-weight"><i>Meet new brand sneakers, which fit for any weather
                         conditions and have a stylish design.</i></h3>
             </div>
 
             <div class="list">
                 <ul>
                     <div class="box1">
-
+                         
                         <li>Engineered mesh upper;</li>
                         <li>Trufuse midsole;</li>
                         <li>Overlays;</li>
@@ -149,7 +155,7 @@
 
     <section id="discount">
         <h5 class="space">Make an Order</h5>
-        <h1 style="font-size: 65px;" class="f-weight space">Get a <span class="span-style">30%</span> discount on<br>
+        <h1 style="font-size: 4.0625em;" class="f-weight space">Get a <span class="span-style">30%</span> discount on<br>
             your first order!</h1>
         <button onclick="previous()" style="margin: 25px;" class="btn space">Buy Now !</button>
     </section>
@@ -200,9 +206,9 @@
             </div>
         </div>
     </section>
-
     <script src="https://kit.fontawesome.com/0c5425b219.js" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+    <script src="js/hamburger.js"></script>
 </body>
 
 </html>

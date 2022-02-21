@@ -1,11 +1,12 @@
-#top-container {
+.top-container {
     background-color: #181a1b;
     height: 10vh;
     align-items: center;
 }
 
 .logo img {
-    height: 80px;
+    height: auto;
+    max-width: 100%;
 }
 
 

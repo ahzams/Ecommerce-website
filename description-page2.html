@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/s-style.css">
     <link rel="stylesheet" href="css/g-style.css">
     <link rel="stylesheet" href="css/desc.css">
+    <link rel="stylesheet" href="css/respnse-style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
@@ -17,21 +18,26 @@
 </head>
 
 <body>
-    <div id="top-container">
+    <div class="top-container">
 
         <div class="logo">
             <img onclick="home()" src="img/Shoez-logos_white.png" alt="">
         </div>
         <nav id="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
+            <ul class="nav-list v-class">
+                <li><a class="current" href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <div onclick="login()" class="icons">
+            <div onclick="login()" class="icons v-class">
                 <span class="material-icons">account_circle</span>LOGIN/REGISTER
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
         </nav>
     </div>
@@ -247,8 +253,8 @@
         </div>
     </section>
     <script src="https://kit.fontawesome.com/0c5425b219.js" crossorigin="anonymous"></script>
-
     <script src="js/desc.js"></script>
+    <script src="js/hamburger.js"></script>
 </body>
 
 </html>
