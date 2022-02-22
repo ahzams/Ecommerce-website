@@ -108,6 +108,5 @@
 #footer {
     background-image: url('bg-3.jpg');
     color: white;
-    height: 50vh;
-    
+    /* height: 50vh; */
 }

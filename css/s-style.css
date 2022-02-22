@@ -1,14 +1,12 @@
+
 .top-container {
-    background-color: #181a1b;
-    height: 10vh;
-    align-items: center;
+    background-color: rgba(0, 0, 0, 0.85);
+
 }
 
-.logo img {
-    height: auto;
-    max-width: 100%;
+#navbar {
+    font-size: 1.1em;
 }
-
 
 #shop-bg {
     display: flex;
@@ -29,7 +27,7 @@
     position: absolute;
     left: 0;
     top: -60px;
-    height: 313px;
+    height: 336px;
     width: 100%;
     z-index: -1;
 }
@@ -231,7 +229,7 @@ hr {
 .price {
     color: #f75b5b;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 1.5625em;
 }
 
 .description button {
@@ -242,6 +240,7 @@ hr {
 .description button:hover {
     background-color: rgb(54, 173, 54);
 }
+
 
 /* Utility classes */
 

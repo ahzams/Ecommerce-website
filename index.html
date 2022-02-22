@@ -17,48 +17,51 @@
 
 <body>
     <!-- <section id="upper-section"> -->
-        <div class="top-container">
+    <div class="top-container">
 
-            <div class="logo">
-                <img onclick="home()" src="img/Shoez-logos_white.png" alt="">
-            </div>
-            <nav id="navbar">
-                <ul class="nav-list v-class">
-                    <li><a class="current" href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <div onclick="login()" class="icons v-class">
-                    <span class="material-icons">account_circle</span>LOGIN/REGISTER
-                </div>
-                <div class="hamburger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-            </nav>
+        <div class="logo">
+            <img onclick="home()" src="img/Shoez-logos_white.png" alt="">
         </div>
-        <section id="inside-content">
-            <div class="left-box">
+        <nav id="navbar">
+            <ul class="nav-list v-class">
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div onclick="login()" class="icons v-class">
+                <span class="material-icons">account_circle</span>LOGIN/REGISTER
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </div>
+    <section id="inside-content">
+        <div class="left-box">
+            <div class="head-container">
+                <div class="red-line"></div>
                 <h4 style="padding: 5px 0px; font-size: 1em;" class="f-weight">Choose your suitable sneakers!</h4>
-                <h2 style="padding: 10px 0px; font-size: 3.125em;" class="f-weight">Nike Air with <span
-                        class="span-style">30%</span> discount!
-                </h2>
-                <h3 style="font-size: 0.9375em;" class="f-weight f-style">Meet the shoes perfect suit to active
-                    lifestyle!<br>Your
-                    feet won't feel any fatigue!</h3>
-                <div class="buttons">
-                    <button onclick="previous()" class="btn">Buy Sneakers</button>
-                    <button class="btn btn2">Subscribe</button>
-                </div>
             </div>
-            <div class="right-box">
-                <h1>NIKE</h1>
-                <img src="img/bg-1.png" alt="">
+            <h2 style="padding: 10px 0px; font-size: 3.125em;" class="f-weight">Nike Air with <span
+                    class="span-style">30%</span> discount!
+            </h2>
+            <h3 style="font-size: 0.9375em;" class="f-weight f-style">Meet the shoes perfect suit to active
+                lifestyle!<br>Your
+                feet won't feel any fatigue!</h3>
+            <div class="buttons">
+                <button onclick="previous()" class="btn">Buy Sneakers</button>
+                <button class="btn btn2">Subscribe</button>
             </div>
-        </section>
+        </div>
+        <div class="right-box">
+            <h1>NIKE</h1>
+            <img src="img/bg-1.png" alt="">
+        </div>
+    </section>
     <!-- </section> -->
 
     <section id="Products">
@@ -96,21 +99,21 @@
                         <span style="margin: 0px 15px;">₹ 9,930</span>
                     </div>
                 </div>
-                <di id="greyshoe" class="slide">
+                <div id="greyshoe" class="slide">
                     <img src="img/gray/gray.png" alt="">
                     <h2>NIKE Viale (GS) AH5554 500 University Gray</h2>
                     <div class="price">
                         <span style="margin: 0px 15px;">₹ 11,805</span>
                     </div>
-            </div>
+                </div>
 
-            <div class="navigate-manual">
-                <label for="radio1" class="manual-btn" onmouseenter="ahzam('redshoe')" id="red"></label>
-                <label for="radio2" class="manual-btn" onmouseenter="ahzam('blueshoe')" id="blue"></label>
-                <label for="radio3" class="manual-btn" onmouseenter="ahzam('blackshoe')" id="black"></label>
-                <label for="radio4" class="manual-btn" onmouseenter="ahzam('greyshoe')" id="gray"></label>
+                <div class="navigate-manual">
+                    <label for="radio1" class="manual-btn" onclick="ahzam('redshoe')" id="red"></label>
+                    <label for="radio2" class="manual-btn" onclick="ahzam('blueshoe')" id="blue"></label>
+                    <label for="radio3" class="manual-btn" onclick="ahzam('blackshoe')" id="black"></label>
+                    <label for="radio4" class="manual-btn" onclick="ahzam('greyshoe')" id="gray"></label>
+                </div>
             </div>
-        </div>
     </section>
 
     <section id="featured">
@@ -128,7 +131,7 @@
             <div class="list">
                 <ul>
                     <div class="box1">
-                         
+
                         <li>Engineered mesh upper;</li>
                         <li>Trufuse midsole;</li>
                         <li>Overlays;</li>
@@ -154,8 +157,9 @@
     </section>
 
     <section id="discount">
-        <h5 class="space">Make an Order</h5>
-        <h1 style="font-size: 4.0625em;" class="f-weight space">Get a <span class="span-style">30%</span> discount on<br>
+        <h4 class="space">Make an Order</h4>
+        <h1 style="font-size: 4.0625em;" class="f-weight space">Get a <span class="span-style">30%</span> discount
+            on<br>
             your first order!</h1>
         <button onclick="previous()" style="margin: 25px;" class="btn space">Buy Now !</button>
     </section>

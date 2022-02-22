@@ -1,8 +1,13 @@
+@media only screen and (max-width: 1427px){
+    #navbar {
+        width: 60%;
+    }
+}
+
 @media only screen and (max-width: 1346px){
 
     #navbar {
         width: 65%;
-        font-size: 12px;
     }
 
     .left-box {
@@ -87,11 +92,20 @@
 
     #navbar, #navbar ul {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+    }
+
+    #navbar {
+        width: 20%;
     }
 
     .logo {
-        margin-left: 30px;
+        margin-right: 250px;
+        width: 15%;
+    }
+
+    .icons {
+        padding: 5px 0px;
     }
 
     #navbar ul li {
@@ -102,12 +116,24 @@
         display: block;
     }
 
-    .h-nav {
+    /* .h-nav {
         height: 35vh;
+    } */
+
+    /* .v-class {
+        opacity: 0;
+    } */
+    
+    .v-class {
+        display: none;
     }
 
-    .v-class {
-        opacity: 0;
+    #navbar ul {
+        display: none;
+    }
+
+    .togle {
+        display: flex !important;
     }
 
     .left-box {
@@ -134,7 +160,7 @@
 @media only screen and (max-width: 798px) {
 
     .logo {
-        margin-left: 0;
+        margin-left: 10px;
     }
 
    #inside-content {
@@ -142,12 +168,13 @@
    }
 
    .left-box {
-       margin-top: 40px;
+       font-size: 11px;
+       margin-top: 30px;
        width: 50%;
    }
 
    .right-box {
-       margin-top: -10px;
+       margin-top: -15px;
        margin-left: 50px;
        text-align: left;
        font-size: 140px;
@@ -157,9 +184,9 @@
        margin-right: 0;
    }
 
-   .right-box img{
-       max-width: 70%;
-   }
+   /* .right-box img{
+       max-width: 80%;
+   } */
 
    .buttons {
        display: flex;
@@ -167,7 +194,11 @@
    }
 
    .slide img {
-       width: 440px;
+       width: 480px;
+   }
+
+   .slide {
+       font-size: 16px;
    }
 
    #featured {
@@ -193,7 +224,6 @@
 
    .para {
        padding: 0 25px;
-       margin: 10px 0;
    }
 
    .list ul {
@@ -225,3 +255,208 @@
    }
 }
 
+@media only screen and (max-width: 615px) {
+    .logo {
+        margin-right: 200px;
+    }
+
+    .left-box {
+        font-size: 14px;
+    }
+
+    .right-box {
+        margin-top: 0px;
+        font-size: 135px;
+    }
+
+    .right-box {
+        font-size: 130px;
+    }
+
+    .right-box img {
+        width: 95%;
+        top: -200px;
+    }
+
+    .slide {
+        font-size: 14px;
+    }
+
+    #featured {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 537px){
+
+    #navbar {
+        width: 40%;
+    }
+    .logo {
+        margin-right: 120px;
+        width: 20%;
+    }
+
+    .hamburger {
+        top: 17px;
+    }
+
+    .left-box {
+        font-size: 13px;
+        margin-left: 35px;
+    }
+
+    .right-box {
+        margin-left: 30px;
+    }
+
+    .slide {
+        font-size: 12px;
+    }
+
+    .slide img {
+        width: 440px;
+    }
+
+    #discount {
+        font-size: 12px;
+    }
+
+    #slider {
+        height: 479px;
+    }
+}
+
+@media only screen and (max-width: 479px){
+    .logo {
+        margin-left: 0px;
+    }
+
+    .left-box {
+        font-size: 12px;
+        margin-left: 25px;
+    }
+
+    .right-box {
+        margin-left: 20px;
+        font-size: 125px;
+    }
+
+    .right-box img {
+        width: 100%;
+    }
+
+    #left-section {
+        padding: 15px 0px;
+        margin: 20px 0;
+    }
+
+    .footer-box {
+        margin: 20px 23px;
+    }
+
+    .footer-box img {
+        max-width: 130px;
+    }
+
+}
+
+@media only screen and (max-width: 444px) {
+
+    .logo {
+        margin-left: 12px;
+        width: 25%;
+    }
+
+    .hamburger {
+        top: 11px;
+    }
+    
+    .line {
+        width: 27px;
+        height: 3px;
+    }
+
+    .left-box{
+        font-size: 11px;
+    }
+
+    .slide img {
+        width: 380px;
+        margin: 20px;
+    }
+
+    .slide {
+        font-size: 11px;
+    }
+
+    #discount {
+        font-size: 11px;
+    }
+
+    .footer-box {
+        margin: 20px 15px;
+    }
+}
+
+@media only screen and (max-width: 397px) {
+
+    .logo{
+        width: 25%;
+    }
+
+    .hamburger {
+        top: 16px;
+    }
+
+    .left-box{
+        margin-top: 50px;
+        width: 70%;
+        font-size: 12.5px;
+    }
+
+    .red-line {
+        width: 15%;
+    }
+
+    .left-box h2,h3,.buttons{
+        margin-left: 45px;
+    }
+
+    .right-box {
+        font-size: 120px;
+        margin-left: 0;
+    }
+
+    .right-box img {
+        width: 90%;
+        left: 40px;
+    }
+
+    .slide {
+        font-size: 10px;
+    }
+
+    #discount {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .slide img {
+        width: 350px;
+    }
+
+    #slider {
+        height: 460px;
+    }
+
+    #featured .box1,.box2{
+        font-size: 13px;
+    }
+
+    .footer-box {
+        font-size: 14px;
+    }
+}

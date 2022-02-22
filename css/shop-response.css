@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1518px) {
+    #shop-bg {
+        height: 224px;
+    }
+
+    #shop-bg::before {
+        height: 354px;
+    }
+}
+
+@media only screen and (max-width: 1337px) {
+    #shop-items {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1157px) {
+
+    .section1 {
+        min-width: 16%;
+    }
+}
+
+@media only screen and (max-width: 1108px) {
+
+    #shop-bg {
+        height: 235px;
+    }
+    #shop-bg::before {
+        height: 360px;
+    }
+    #navbar {
+        width: 72%;
+        font-size: 14px;
+    }
+
+    #shop-items {
+        flex-direction: column;
+    }
+
+    .section2 {
+        min-width: 100%;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .logo {
+        margin-left: 20px;
+        width: 20%;
+    }
+
+    .hamburger {
+        top: 17px;
+    }
+
+    #shop-bg::before {
+        height: 363px;
+    }
+}
+
+@media only screen and (max-width: 828px) {
+    .items {
+        flex-direction: column;
+    }
+
+    .description {
+        font-size: 17px;
+        margin: 10px 65px;
+    }
+}
