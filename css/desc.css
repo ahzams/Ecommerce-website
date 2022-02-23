@@ -102,16 +102,26 @@ img {
     margin: 15px 0;
 }
 
-.input-btns input {
+.quantity input {
     width: 13%;
 }
 
+.input-btns {
+    display: flex;
+}
+
 .input-btns .btn {
-    margin: 0 10px;
-    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 8px 0px 0px;
+    padding: 15px 14px;
     font-size: 0.8em;
     letter-spacing: 1px;
-    width: 20%;
+}
+
+.input-btns .btn span {
+    padding: 0 5px;
 }
 
 #mid-container {

@@ -168,7 +168,7 @@
    }
 
    .left-box {
-       font-size: 11px;
+       font-size: 10px;
        margin-top: 30px;
        width: 50%;
    }
@@ -186,7 +186,7 @@
 
    .right-box img {
        top: -250px;
-       max-width: 80%;
+       width: 73%;
    }
 
    /* .right-box img{
@@ -267,12 +267,15 @@
 }
 
 @media only screen and (max-width: 615px) {
+    #navbar {
+        font-size: 11px;
+    }
     .logo {
         margin-right: 200px;
     }
 
     .left-box {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .right-box {
@@ -285,7 +288,7 @@
     }
 
     .right-box img {
-        width: 95%;
+        width: 81%;
         top: -230px;
     }
 
@@ -356,7 +359,7 @@
     }
 
     .left-box {
-        font-size: 12px;
+        font-size: 11.5px;
         margin-left: 25px;
     }
 
@@ -366,7 +369,7 @@
     }
 
     .right-box img {
-        width: 100%;
+        width: 95%;
     }
 
     #left-section {
@@ -397,7 +400,8 @@
     }
 
     .right-box img {
-        top: -230px;
+        top: -220px;
+        width: 100%;
     }
     
     .line {
@@ -406,7 +410,7 @@
     }
 
     .left-box{
-        font-size: 12px;
+        font-size: 10.5px;
     }
 
     .slide img {
@@ -428,6 +432,10 @@
 }
 
 @media only screen and (max-width: 397px) {
+    #navbar {
+        font-size: 10px;
+        width: 50%;
+    }
 
     .logo{
         width: 25%;
@@ -440,7 +448,7 @@
     .left-box{
         margin-top: 50px;
         width: 70%;
-        font-size: 12.5px;
+        font-size: 11.5px;
     }
 
     .red-line {
@@ -457,9 +465,9 @@
     }
 
     .right-box img {
-        width: 90%;
+        width: 89%;
         left: 40px;
-        top: -214px;
+        top: -200px;
     }
 
     .slide {
@@ -473,10 +481,6 @@
 }
 
 @media only screen and (max-width: 380px) {
-    #navbar {
-        font-size: 10px;
-        width: 50%;
-    }
 
     .logo {
         width: 40%;
