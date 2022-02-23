@@ -160,7 +160,7 @@
 @media only screen and (max-width: 798px) {
 
     .logo {
-        margin-left: 10px;
+        margin-left: -15px;
     }
 
    #inside-content {
@@ -174,7 +174,7 @@
    }
 
    .right-box {
-       margin-top: -15px;
+       margin-top: -18px;
        margin-left: 50px;
        text-align: left;
        font-size: 140px;
@@ -182,6 +182,11 @@
 
    .right-box h1 {
        margin-right: 0;
+   }
+
+   .right-box img {
+       top: -250px;
+       max-width: 80%;
    }
 
    /* .right-box img{
@@ -255,13 +260,19 @@
    }
 }
 
+@media only screen and (max-width: 646px) {
+    .right-box img {
+        max-width: 90%;
+    }
+}
+
 @media only screen and (max-width: 615px) {
     .logo {
         margin-right: 200px;
     }
 
     .left-box {
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .right-box {
@@ -275,7 +286,7 @@
 
     .right-box img {
         width: 95%;
-        top: -200px;
+        top: -230px;
     }
 
     .slide {
@@ -294,11 +305,12 @@
     }
     .logo {
         margin-right: 120px;
-        width: 20%;
+        width: 25%;
+        padding: 10px;
     }
 
     .hamburger {
-        top: 17px;
+        top: 19px;
     }
 
     .left-box {
@@ -326,6 +338,17 @@
         height: 479px;
     }
 }
+
+@media only screen and (max-width: 496px){
+    .left-box {
+        font-size: 12px;
+    }
+
+    .right-box img {
+        max-width: 100%;
+    }
+}
+
 
 @media only screen and (max-width: 479px){
     .logo {
@@ -364,12 +387,17 @@
 @media only screen and (max-width: 444px) {
 
     .logo {
-        margin-left: 12px;
-        width: 25%;
+        margin-left: 0px;
+        width: 27%;
+        padding: 10px 5px;
     }
 
     .hamburger {
-        top: 11px;
+        top: 21px;
+    }
+
+    .right-box img {
+        top: -230px;
     }
     
     .line {
@@ -378,7 +406,7 @@
     }
 
     .left-box{
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .slide img {
@@ -440,9 +468,33 @@
     #discount {
         font-size: 10px;
     }
+    
 }
 
 @media only screen and (max-width: 380px) {
+    #navbar {
+        font-size: 10px;
+        width: 50%;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .hamburger {
+        top: 23px;
+        right: 5%;
+    }
+
+    .left-box {
+        width: 75%;
+    }
+
+    .right-box img {
+        top: -220px;
+        width: 100%;
+        left: 20px;
+    }
 
     .slide img {
         width: 350px;

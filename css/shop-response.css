@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1518px) {
     #shop-bg {
-        height: 224px;
+        height: 201px;
     }
 
     #shop-bg::before {
@@ -8,13 +8,54 @@
     }
 }
 
+@media only screen and (max-width: 1468px) {
+    #shop-bg {
+        height: 203px;
+    }
+}
+
+@media only screen and (max-width: 1437px) {
+    #shop-bg {
+        height: 206px;
+    }
+}
+
+@media only screen and (max-width: 1363px) {
+    #shop-bg::before {
+        height: 352px;
+    }
+}
+
 @media only screen and (max-width: 1337px) {
+    #shop-bg::before {
+        height: 347px;
+    }
+
     #shop-items {
         padding: 0;
     }
 }
 
+@media only screen and (max-width: 1278px) {
+    #shop-bg:before {
+        height: 345px;
+    }
+}
+
+@media only screen and (max-width: 1224px) {
+    #shop-bg:before {
+        height: 340px;
+    }
+}
+
 @media only screen and (max-width: 1157px) {
+    #shop-bg {
+        height: 204px;
+    }
+
+    #shop-bg::before {
+        height: 336px;
+    }
 
     .section1 {
         min-width: 16%;
@@ -24,10 +65,10 @@
 @media only screen and (max-width: 1108px) {
 
     #shop-bg {
-        height: 235px;
+        height: 223px;
     }
     #shop-bg::before {
-        height: 360px;
+        height: 352px;
     }
     #navbar {
         width: 72%;
@@ -51,28 +92,272 @@
     }
 }
 
+@media only screen and (max-width: 1057px) {
+    #shop-bg::before {
+        height: 349px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    #shop-bg::before {
+        height: 347px;
+    }
+}
+
+@media only screen and (max-width: 995px) {
+    #shop-bg::before {
+        height: 345px;
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    #shop-bg::before {
+        height: 341px;
+    }
+}
+
 @media only screen and (max-width: 880px) {
+    
     .logo {
         margin-left: 20px;
         width: 20%;
+        padding: 5px;
     }
-
+    
     .hamburger {
         top: 17px;
     }
 
     #shop-bg::before {
-        height: 363px;
+        height: 355px;
+    }
+}
+
+@media only screen and (max-width: 837px){
+    #shop-bg::before {
+        height: 352px;
     }
 }
 
 @media only screen and (max-width: 828px) {
+    #shop-bg::before {
+        height: 349px;
+    }
+
     .items {
         flex-direction: column;
     }
 
     .description {
         font-size: 17px;
-        margin: 10px 65px;
+        width: 100%;
+        margin: 10px 11px;
+    }
+
+    .text {
+        text-align: justify;
+        margin: 10px 0;
+    }
+
+    .nav-btns {
+        margin: 5px 20px;
     }
 }
+
+@media only screen and (max-width: 782px) {
+    #shop-bg::before {
+        height: 343px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #shop-bg::before {
+        height: 338px;
+    }
+}
+
+@media only screen and (max-width: 679px) {
+    #shop-bg::before {
+        height: 333px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .logo{
+        width: 40%;
+    }
+    #shop-bg {
+        height: 199px;
+    }
+
+    #shop-bg::before {
+        height: 329px;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .logo {
+        width: 35%;
+    }
+
+    #shop-bg {
+        height: 194px;
+    }
+    
+    #shop-bg::before {
+        height: 326px;
+    }
+}
+
+@media only screen and (max-width: 597px) {
+    
+    #shop-bg::before {
+        height: 319px;
+    }
+
+}
+
+@media only screen and (max-width: 537px) {
+
+    .logo {
+        width: 40%;
+    }
+
+    .hamburger {
+        top: 22px;
+    }
+
+    #shop-bg {
+        height: 196px;
+    }
+    
+    #shop-bg::before {
+        height: 334px;
+    }
+
+    .items-head {
+        font-size: 13px;
+        margin: 5px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .hamburger {
+        top: 19px;
+    }
+
+    #shop-bg::before {
+        height: 327px;
+    }
+}
+
+@media only screen and (max-width: 487px) {
+
+    #shop-bg::before {
+        height: 325px;
+    }
+}
+
+@media only screen and (max-width: 469px) {
+
+    #shop-bg::before {
+        height: 321px;
+    }
+
+    #shop-items {
+        margin: 50px 28px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+
+    .logo {
+        width: 45%;
+        margin-left: 0;
+    }
+
+    .hamburger {
+        top: 19px;
+    }
+
+    /* #shop-bg {
+        height: 196px;
+    } */
+    
+    #shop-bg::before {
+        height: 322px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .logo {
+        width: 45%;
+        padding: 8px;
+    }
+
+    #shop-bg {
+        height: 191px;
+    }
+
+    #shop-bg::before {
+        height: 316px;
+    }
+}
+
+@media only screen and (max-width: 394px) {
+    .logo {
+        width: 65%;
+        padding: 8px;
+    }
+
+    #shop-bg {
+        height: 191px;
+    }
+
+    #shop-bg::before {
+        height: 319px;
+    }
+
+    .section2 .btn {
+        font-size: 12px;
+    }
+
+    #shop-items {
+        margin: 50px 19px;
+    }
+
+    .footer-box img {
+        max-width: 108px;
+    }
+    
+    .footer-box .logo {
+        
+        padding: 0;
+    }
+
+    .footer-box {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 345px) {
+    .logo {
+        width: 75%;
+        padding: 8px;
+    }
+
+    #shop-bg {
+        height: 191px;
+    }
+
+    #shop-bg::before {
+        height: 316px;
+    }
+}
+
