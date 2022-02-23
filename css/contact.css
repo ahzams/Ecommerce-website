@@ -2,27 +2,31 @@
     display: flex;
     justify-content: center;
     padding: 50px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    background: url('img-css/contact-us.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    height: 970px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
 }
 
 .container {
     padding: 40px;
-    width: 50%;
+    width: 70%;
     border-radius: 5px;
+    color: white;
 }
 
 .container h1 {
+    font-size: 2em;
     margin: 15px 0;
-}
-
-.container h1::before {
-    content: 'CONTACT';
-    position: absolute;
-    top: 21%;
-    z-index: 0;
-    letter-spacing: 10px;
-    font-size: 4em;
-    color: rgba(179, 168, 168, 0.15);
-    z-index: -1;
 }
 
 .form-box {
@@ -38,12 +42,12 @@
    padding: 15px;
    border: none;
    border-radius: 3px;
-   background-color: #e4e4e4;
+   background-color: rgba(218, 209, 209, 0.938);
 }
 
 .form-box textarea {
    border: none;
-   background-color: #e4e4e4;
+   background-color: rgba(218, 209, 209, 0.938);
    padding: 15px;
 }
 

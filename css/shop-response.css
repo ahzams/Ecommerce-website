@@ -229,7 +229,7 @@
     }
 
     #shop-bg {
-        height: 196px;
+        height: 199px;
     }
     
     #shop-bg::before {
@@ -311,6 +311,11 @@
 }
 
 @media only screen and (max-width: 394px) {
+    #navbar {
+        font-size: 10px;
+        width: 75%;
+    }
+
     .logo {
         width: 65%;
         padding: 8px;
@@ -321,7 +326,7 @@
     }
 
     #shop-bg::before {
-        height: 319px;
+        height: 325px;
     }
 
     .section2 .btn {
@@ -333,7 +338,7 @@
     }
 
     .footer-box img {
-        max-width: 108px;
+        max-width: 100px;
     }
     
     .footer-box .logo {
@@ -346,7 +351,19 @@
     }
 }
 
-@media only screen and (max-width: 345px) {
+@media only screen and (max-width: 374px){
+    #shop-bg::before {
+        height: 315px;
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 374px){
+    #shop-bg::before {
+        height: 319px;
+    }
+}
+
+@media only screen and (max-width: 347px) {
     .logo {
         width: 75%;
         padding: 8px;
