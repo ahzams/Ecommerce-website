@@ -10,6 +10,10 @@
         width: 65%;
     }
 
+    #inside-content {
+        height: 573px;
+    }
+
     .left-box {
         position: static;
         margin-top: 85px;
@@ -27,6 +31,15 @@
 }
 
 @media only screen and (max-width: 1020px){
+
+    #navbar {
+        width: 70%;
+        font-size: 14px;
+    }
+
+    #inside-content {
+        height: 485px;
+    }
 
     .left-box {
         font-size: 11px;
@@ -100,7 +113,7 @@
     }
 
     .logo {
-        margin-right: 250px;
+        margin-right: 350px;
         width: 15%;
     }
 
@@ -161,14 +174,21 @@
 
     .logo {
         margin-left: -15px;
+        padding: 5px;
+        width: 18%;
+    }
+
+    .hamburger {
+        top: 18px;
     }
 
    #inside-content {
        flex-direction: column;
+       height: 646px;
    }
 
    .left-box {
-       font-size: 10px;
+       font-size: 11px;
        margin-top: 30px;
        width: 50%;
    }
@@ -186,7 +206,7 @@
 
    .right-box img {
        top: -250px;
-       width: 65%;
+       width: 75%;
    }
 
    /* .right-box img{
@@ -261,8 +281,15 @@
 }
 
 @media only screen and (max-width: 646px) {
+    .logo {
+        margin-left: 10px;
+    }
+
+    .hamburger {
+        top: 15px;
+    }
     .right-box img {
-        width: 75%;
+        width: 95%;
     }
 }
 
@@ -271,24 +298,16 @@
         font-size: 11px;
     }
     .logo {
-        margin-right: 200px;
-    }
-
-    .left-box {
-        font-size: 10px;
+        width: 20%;
     }
 
     .right-box {
         margin-top: 0px;
-        font-size: 135px;
-    }
-
-    .right-box {
-        font-size: 130px;
+        font-size: 140px;
     }
 
     .right-box img {
-        width: 75%;
+        width: 89%;
         top: -230px;
     }
 
@@ -307,13 +326,18 @@
         width: 40%;
     }
     .logo {
-        margin-right: 120px;
-        width: 25%;
+        margin-right: 150px;
+        width: 27%;
         padding: 10px;
     }
 
     .hamburger {
         top: 19px;
+        right: 5%;
+    }
+
+    #inside-content {
+        height: 625px;
     }
 
     .left-box {
@@ -324,6 +348,10 @@
     .right-box {
         font-size: 124px;
         margin-left: 30px;
+    }
+
+    .right-box img {
+        width: 96%;
     }
 
     .slide {
@@ -344,17 +372,25 @@
 }
 
 @media only screen and (max-width: 496px){
+    #inside-content {
+        height: 595px;
+    }
+
     .left-box {
         font-size: 12px;
     }
 
     .right-box img {
-        max-width: 100%;
+        width: 100%;
     }
 }
 
 
 @media only screen and (max-width: 479px){
+    #inside-content {
+        height: 563px;
+    }
+
     .logo {
         margin-left: 0px;
     }
@@ -370,7 +406,7 @@
     }
 
     .right-box img {
-        width: 85%;
+        width: 95%;
     }
 
     #left-section {
@@ -392,17 +428,17 @@
 
     .logo {
         margin-left: 0px;
-        width: 27%;
-        padding: 10px 5px;
+        width: 34%;
+        padding: 10px;
     }
 
     .hamburger {
-        top: 21px;
+        top: 18px;
     }
 
     .right-box img {
-        top: -233px;
-        width: 92%;
+        top: -218px;
+        width: 95%;
     }
     
     .line {
@@ -411,6 +447,7 @@
     }
 
     .left-box{
+        margin-top: 24px;
         font-size: 10.5px;
     }
 
@@ -438,12 +475,12 @@
         width: 50%;
     }
 
-    .logo{
-        width: 25%;
+    .logo {
+        width: 44%;
     }
 
-    .hamburger {
-        top: 16px;
+    #inside-content {
+        height: 595px;
     }
 
     .left-box{
@@ -466,8 +503,8 @@
     }
 
     .right-box img {
-        width: 89%;
-        left: 40px;
+        width: 100%;
+        left: 15px;
         top: -200px;
     }
 
@@ -484,12 +521,16 @@
 @media only screen and (max-width: 380px) {
 
     .logo {
-        width: 40%;
+        width: 66%;
     }
 
     .hamburger {
-        top: 23px;
+        top: 17px;
         right: 5%;
+    }
+
+    #inside-content {
+        height: 604px;
     }
 
     .left-box {
@@ -497,17 +538,21 @@
     }
 
     .right-box img {
-        top: -220px;
+        top: -209px;
         width: 100%;
-        left: 20px;
+        left: 22px;
     }
 
     .slide img {
-        width: 350px;
+        width: 330px;
     }
 
     #slider {
         height: 460px;
+    }
+
+    #discount {
+        font-size: 9px;
     }
 
     #featured .box1,.box2{
