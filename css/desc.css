@@ -35,14 +35,15 @@ img {
     /* border: 1px solid black; */
     /* margin: 20px; */
     padding: 7px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
+    /* align-items: center; */
 }
 
 .bottom img {
-    height: auto;
-    max-width: 100%;
     margin: 5px;
+    width: 19%;
 }
 
 .right-container {
@@ -172,8 +173,7 @@ img {
 
 .mid-info {
     /* border: 1px solid black; */
-    padding: 10px;
-    height: 50vh;
+    padding: 0 10px;
 }
 
 .mid-info h1 {
@@ -273,5 +273,199 @@ hr {
 #footer {
     background-image: url('img-css/bg-3.jpg');
     color: white;
-    max-height: 45vh;
+}
+
+@media only screen and (max-width: 1140px) {
+    #shop-products {
+        flex-direction: column;
+    }
+
+    .right-container {
+        padding: 10px 0;
+        margin: 10px 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    #shop-products {
+        padding: 0 24px;
+        margin: 50px;
+    }
+
+    .right-container .description {
+        font-size: 17px;
+    }
+
+    #mid-container {
+        padding: 0 24px;
+        margin: 50px;
+    }
+
+    hr {
+        margin: 50px 84px;
+    }
+
+    #desc-carousel {
+        padding: 0 24px;
+        margin: 50px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 784px) {
+    .bottom img{
+        width: 17%;
+    }
+
+    .right-container .description {
+        padding: 15px 9px;
+        margin: 10px 0;
+        font-size: 15px;
+    }
+
+    #mid-container {
+        font-size: 15px;
+    }
+
+    #desc-carousel .img {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 669px) {
+     .right-container .description {
+         font-size: 14px;
+     }
+
+     #mid-container {
+         font-size: 14px;
+     }
+
+     #desc-carousel .carousel {
+         flex-direction: column;
+     }
+
+     #desc-carousel h1 {
+         margin-bottom: 30px;
+     }
+
+     #desc-carousel .img {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 625px){
+    #shop-products {
+        padding: 0 12px;
+        margin: 50px 42px;
+    }
+
+    #mid-container {
+        padding: 0 12px;
+        margin: 50px 42px;
+    }
+
+    hr {
+        margin: 50px 68px;
+    }
+
+    #desc-carousel {
+        padding: 0 15px;
+        margin: 50px 45px;
+    }
+
+    .footer-box img {
+        width: 120px;
+    }
+
+    .footer-box .logo {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 490px){
+    .right-container .description{
+        font-size: 13px;
+    }
+
+    .right-container .description h2:not(.price) {
+        font-size: 25px;
+    }
+
+    .input-btns .btn {
+        padding: 12px 14px;
+    }
+
+    .input-btns .btn span {
+        font-size: 16px;
+    }
+
+    #mid-container {
+        font-size: 13px;
+    }
+
+    hr {
+        margin: 22px 68px;
+    }
+
+    #desc-carousel {
+        font-size: 15px;
+    }
+
+    #desc-carousel .img {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 439px){ 
+    #shop-products {
+        padding: 0;
+        margin: 50px 36px;
+    }
+
+    #mid-container {
+        padding: 0;
+        margin: 50px 36px;
+    }
+
+    #desc-carousel {
+        padding: 0 5px;
+        margin: 50px 40px;
+    }
+
+    hr {
+        margin: 37px 45px;
+    }
+
+    #desc-carousel .img {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 387px){
+    .footer-box img {
+        width: 90px;
+    }
+
+    #shop-products {
+        margin: 50px 24px;
+    } 
+
+    #mid-container {
+        margin: 50px 24px;
+        font-size: 12px;
+    }
+
+    hr {
+        margin: 23px 34px;
+    }
+
+    #desc-carousel {
+        padding: 0 5px;
+        margin: 22px 25px;
+    }
 }
