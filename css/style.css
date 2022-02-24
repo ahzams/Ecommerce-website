@@ -434,7 +434,7 @@
 /* Footer */
 
 #footer {
-    background-image: url('img-css/bg-3.jpg');
+    background: url('img-css/bg-3.jpg') no-repeat center center/cover;
     color: white;
     /* max-height: 45vh; */
 }
