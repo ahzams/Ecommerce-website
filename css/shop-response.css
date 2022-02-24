@@ -38,13 +38,19 @@
 
 @media only screen and (max-width: 1278px) {
     #shop-bg:before {
-        height: 345px;
+        height: 350px;
     }
 }
 
-@media only screen and (max-width: 1224px) {
+@media only screen and (max-width: 1267px) {
+    #shop-bg {
+        height: 213px;
+    }
+}
+
+@media only screen and (max-width: 1225px) {
     #shop-bg:before {
-        height: 340px;
+        height: 350px;
     }
 }
 
@@ -54,7 +60,7 @@
     }
 
     #shop-bg::before {
-        height: 336px;
+        height: 341px;
     }
 
     .section1 {
@@ -65,14 +71,10 @@
 @media only screen and (max-width: 1108px) {
 
     #shop-bg {
-        height: 223px;
+        height: 215px;
     }
     #shop-bg::before {
         height: 352px;
-    }
-    #navbar {
-        width: 72%;
-        font-size: 14px;
     }
 
     #shop-items {
@@ -92,15 +94,31 @@
     }
 }
 
+@media only screen and (max-width: 1083px) {
+    #shop-bg {
+        height: 219px;
+    }
+}
+
 @media only screen and (max-width: 1057px) {
     #shop-bg::before {
-        height: 349px;
+        height: 352px;
     }
 }
 
 @media only screen and (max-width: 1023px) {
+    #shop-bg {
+        height: 218px;
+    }
+}
+
+@media only screen and (max-width: 1021px) {
+    #shop-bg {
+        height: 218px;
+    }
+
     #shop-bg::before {
-        height: 347px;
+        height: 344px;
     }
 }
 
@@ -111,38 +129,28 @@
 }
 
 @media only screen and (max-width: 945px) {
+    #shop-bg {
+        height: 196px;
+    }
     #shop-bg::before {
-        height: 341px;
+        height: 322px;
     }
 }
 
-@media only screen and (max-width: 880px) {
-    
-    .logo {
-        margin-left: 20px;
-        width: 25%;
-        padding: 5px;
-    }
-    
-    .hamburger {
-        top: 17px;
-    }
+@media only screen and (max-width: 881px) {
 
     #shop-bg::before {
-        height: 355px;
+        height: 326px;
     }
 }
 
 @media only screen and (max-width: 837px){
     #shop-bg::before {
-        height: 352px;
+        height: 325px;
     }
 }
 
 @media only screen and (max-width: 828px) {
-    #shop-bg::before {
-        height: 349px;
-    }
 
     .items {
         flex-direction: column;
@@ -165,108 +173,78 @@
 }
 
 @media only screen and (max-width: 782px) {
-    .logo {
-        width: 28%;
-    }
+
     #shop-bg::before {
-        height: 347px;
+        height: 325px;
     }
 }
 
 @media only screen and (max-width: 751px) {
-    .logo {
-        width: 31%;
-    }
-    #shop-bg::before {
+
+    /* #shop-bg::before {
         height: 347px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 720px) {
-    .logo {
-        width: 35%;
-    }
-    #shop-bg::before {
+
+    /* #shop-bg::before {
         height: 348px;
-    }
+    } */
 }
 @media only screen and (max-width: 698px) {
-    .logo {
-        width: 41%;
-    }
-    #shop-bg::before {
+
+    /* #shop-bg::before {
         height: 347px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 679px) {
-    .logo {
-        width: 45%;
-    }
-    #shop-bg::before {
+
+    /* #shop-bg::before {
         height: 345px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 640px) {
 
-    .logo{
-        width: 55%;
-    }
-    #shop-bg {
+    /* #shop-bg {
         height: 205px;
     }
 
     #shop-bg::before {
         height: 329px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 615px) {
-    .logo {
-        width: 65%;
-    }
 
-    #shop-bg {
+    /* #shop-bg {
         height: 202px;
     }
     
     #shop-bg::before {
         height: 326px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 597px) {
-    .logo {
-        width: 95%;
-    }
-    
-    .hamburger {
-        top: 12px;
-    }
-    #shop-bg::before {
+
+    /* #shop-bg::before {
         height: 319px;
-    }
+    } */
 
 }
 
 @media only screen and (max-width: 537px) {
 
-    .logo {
-        width: 40%;
-    }
-
-    .hamburger {
-        top: 22px;
-    }
-
-    #shop-bg {
+    /* #shop-bg {
         height: 199px;
     }
     
     #shop-bg::before {
         height: 334px;
-    }
+    } */
 
     .items-head {
         font-size: 13px;
@@ -280,86 +258,60 @@
 
 @media only screen and (max-width: 520px) {
 
-    .hamburger {
-        top: 19px;
-    }
-
-    #shop-bg::before {
+    /* #shop-bg::before {
         height: 327px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 487px) {
 
-    #shop-bg::before {
+    /* #shop-bg::before {
         height: 325px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 469px) {
 
-    #shop-bg::before {
+    /* #shop-bg::before {
         height: 321px;
     }
 
     #shop-items {
         margin: 50px 28px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 445px) {
-
-    .logo {
-        width: 45%;
-        margin-left: 0;
-    }
-
-    .hamburger {
-        top: 19px;
-    }
 
     /* #shop-bg {
         height: 196px;
     } */
     
-    #shop-bg::before {
+    /* #shop-bg::before {
         height: 322px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 410px) {
-    .logo {
-        width: 50%;
-        padding: 8px;
-    }
 
     #shop-bg {
         height: 191px;
     }
 
     #shop-bg::before {
-        height: 314px;
+        height: 311px;
     }
 }
 
 @media only screen and (max-width: 394px) {
-    #navbar {
-        font-size: 10px;
-        width: 75%;
-    }
 
-    .logo {
-        width: 65%;
-        padding: 8px;
-    }
-
-    #shop-bg {
+    /* #shop-bg {
         height: 191px;
     }
 
     #shop-bg::before {
-        height: 316px;
-    }
+        height: 315px;
+    } */
 
     .section2 .btn {
         font-size: 12px;
@@ -384,12 +336,10 @@
 }
 
 @media only screen and (max-width: 374px){
-    .hamburger {
-        top: 14px;
-    }
-    #shop-bg::before {
+    
+    /* #shop-bg::before {
         height: 312px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 361px) {
@@ -398,14 +348,22 @@
     }
 }
 
-@media only screen and (max-width: 347px) {
-    .logo {
-        width: 75%;
-        padding: 8px;
-    }
+@media only screen and (max-width: 353px) {
 
     #shop-bg {
         height: 191px;
+    }
+
+    #shop-bg::before {
+        height: 300px;
+    }
+
+    .logo {
+        margin: 3px 2px;
+    }
+
+    .logo img {
+        width: 61px;
     }
 }
 

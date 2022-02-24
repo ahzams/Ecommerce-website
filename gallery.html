@@ -26,10 +26,10 @@
         }
 
         @media only screen and (max-width: 903px) {
-            .logo {
+            /* .logo {
                 padding: 5px;
                 width: 14%;
-            }
+            } */
 
             #gallery {
                 margin: 30px 0;
@@ -46,9 +46,9 @@
         }
 
         @media only screen and (max-width: 880px) {
-            .logo {
+            /* .logo {
                 width: 22%;
-            }
+            } */
 
             .carousel img {
                 height: 68vh;
@@ -59,13 +59,13 @@
 
 
         @media only screen and (max-width: 784px) {
-            .logo {
+            /* .logo {
                 width: 26%;
             }
 
             .hamburger {
                 top: 21px;
-            }
+            } */
 
             .carousel img {
                 height: 60vh;
@@ -73,13 +73,13 @@
         }
 
         @media only screen and (max-width: 728px) {
-            .logo {
+            /* .logo {
                 width: 30%;
             }
 
             .hamburger {
                 top: 15px;
-            }
+            } */
 
             .carousel img {
                 height: 55vh;
@@ -87,13 +87,13 @@
         }
 
         @media only screen and (max-width: 676px) {
-            .logo {
+            /* .logo {
                 width: 50%;
             }
 
             .hamburger {
                 top: 12px;
-            }
+            } */
 
             #gallery {
                 margin: 30px 0;
@@ -115,13 +115,13 @@
         }
 
         @media only screen and (max-width: 586px) {
-            .logo {
+            /* .logo {
                 width: 80%;
             }
 
             .hamburger {
                 top: 13px;
-            }
+            } */
 
             .box {
                 margin: 3px;
@@ -137,14 +137,14 @@
         }
 
         @media only screen and (max-width: 535px) {
-            .logo {
+            /* .logo {
                 width: 35%;
                 margin-left: 0;
             }
 
             .hamburger {
                 top: 18px;
-            }
+            } */
 
             #gallery {
                 font-size: 14px;
@@ -156,14 +156,14 @@
         }
 
         @media only screen and (max-width: 450px) {
-            .logo {
+            /* .logo {
                 width: 55%;
                 margin-left: 0;
             }
 
             .hamburger {
                 top: 15px;
-            }
+            } */
 
             .boxes {
                 flex-direction: column;
@@ -183,14 +183,14 @@
         }
 
         @media only screen and (max-width: 385px) {
-            .logo {
+            /* .logo {
                 width: 60%;
                 margin-left: 0;
             }
 
             .hamburger {
                 top: 12px;
-            }
+            } */
 
             #gallery {
                 font-size: 12px;
@@ -202,29 +202,26 @@
         }
     </style>
     
-    <div class="top-container">
-
+    <nav id="navbar">
         <div class="logo">
             <img onclick="home()" src="img/Shoez-logos_white.png" alt="">
         </div>
-        <nav id="navbar">
-            <ul class="nav-list v-class">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a class="current" href="gallery.html">Gallery</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a class="current" href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
             <div onclick="login()" class="icons v-class">
                 <span class="material-icons">account_circle</span>LOGIN/REGISTER
             </div>
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-        </nav>
-    </div>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
 
     <section id="gallery">
         <div class="h-primary">

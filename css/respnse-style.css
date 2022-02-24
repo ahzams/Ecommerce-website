@@ -1,17 +1,30 @@
-@media only screen and (max-width: 1427px){
+@media only screen and (max-width: 1455px){
     #navbar {
-        width: 60%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1363px) {
+    #navbar ul {
+        width: 66%;
+    }
+
+    .logo img {
+        width: 120px;
     }
 }
 
 @media only screen and (max-width: 1346px){
+    #navbar ul {
+        width: 70%;
+    }
 
-    #navbar {
-        width: 65%;
+    .logo {
+        margin: 0 60px;
     }
 
     #inside-content {
-        height: 573px;
+        height: 613px;
     }
 
     .left-box {
@@ -30,11 +43,57 @@
     }
 }
 
+@media only screen and (max-width: 1267px){
+    #navbar ul {
+        width: 75%;
+    }
+
+    .logo img {
+        width: 110px;
+    }
+}
+
+
+@media only screen and (max-width: 1185px){
+    #navbar {
+        font-size: 13px;
+    }
+    
+    #navbar ul li a {
+        padding: 0 17px;
+    }
+    
+    #inside-content {
+        height: 571px;
+    }
+}
+
+@media only screen and (max-width: 1083px){
+    #navbar {
+        font-size: 13px;
+    }
+
+    .logo img {
+        width: 104px;
+    }
+
+   #navbar ul {
+       width: 80%;
+   }
+
+   #navbar ul li a {
+       padding: 0 11px;
+   }
+}
+
 @media only screen and (max-width: 1020px){
 
     #navbar {
-        width: 70%;
-        font-size: 14px;
+        font-size: 10.5px;
+    }
+
+    .logo img {
+        width: 95px;
     }
 
     #inside-content {
@@ -97,11 +156,11 @@
 
 @media only screen and (max-width: 880px){
 
-    .top-container {
+    /* .top-container {
         align-items: flex-start;
-    }
+    } */
 
-    #navbar, #navbar ul {
+    /* #navbar, #navbar ul {
         flex-direction: column;
         align-items: flex-start;
     }
@@ -121,10 +180,19 @@
 
     #navbar ul li {
         padding: 10px 0;
+    } */
+
+    .logo {
+        margin: 3px 32px;
+    }
+
+    .logo img {
+        width: 90px;
     }
 
     .hamburger {
         display: block;
+        top: 17px;
     }
 
     /* .h-nav {
@@ -188,7 +256,7 @@
 
 @media only screen and (max-width: 798px) {
 
-    .logo {
+    /* .logo {
         margin-left: -15px;
         padding: 5px;
         width: 18%;
@@ -196,7 +264,7 @@
 
     .hamburger {
         top: 18px;
-    }
+    } */
 
    #inside-content {
        flex-direction: column;
@@ -276,24 +344,32 @@
 }
 
 @media only screen and (max-width: 646px) {
-    .logo {
+    /* .logo {
         margin-left: 10px;
     }
 
     .hamburger {
         top: 15px;
-    }
+    } */
     .right-box img {
         width: 95%;
     }
 }
 
 @media only screen and (max-width: 615px) {
-    #navbar {
+    /* #navbar {
         font-size: 11px;
     }
     .logo {
         width: 20%;
+    } */
+
+    .logo {
+        margin: 3px 15px;
+    }
+
+    .hamburger {
+        right: 5.5%;
     }
 
     .right-box {
@@ -317,7 +393,7 @@
 
 @media only screen and (max-width: 537px){
 
-    #navbar {
+    /* #navbar {
         width: 40%;
     }
     .logo {
@@ -329,7 +405,7 @@
     .hamburger {
         top: 19px;
         right: 5%;
-    }
+    } */
 
     #inside-content {
         height: 625px;
@@ -368,7 +444,7 @@
 
 @media only screen and (max-width: 496px){
     #inside-content {
-        height: 595px;
+        height: 605px;
     }
 
     .left-box {
@@ -386,9 +462,9 @@
         height: 563px;
     }
 
-    .logo {
+    /* .logo {
         margin-left: 0px;
-    }
+    } */
 
     .left-box {
         font-size: 11.5px;
@@ -421,7 +497,7 @@
 
 @media only screen and (max-width: 444px) {
 
-    .logo {
+    /* .logo {
         margin-left: 0px;
         width: 34%;
         padding: 10px;
@@ -429,6 +505,14 @@
 
     .hamburger {
         top: 18px;
+    } */
+
+    .logo {
+        margin: 3px 2px;
+    }
+
+    .logo img {
+        width: 81px;
     }
 
     .right-box img {
@@ -465,13 +549,17 @@
 }
 
 @media only screen and (max-width: 397px) {
-    #navbar {
+    /* #navbar {
         font-size: 10px;
         width: 50%;
     }
 
     .logo {
         width: 44%;
+    } */
+
+    .hamburger {
+        top: 14px;
     }
 
     #inside-content {
@@ -518,14 +606,14 @@
 
 @media only screen and (max-width: 380px) {
 
-    .logo {
+    /* .logo {
         width: 66%;
     }
 
     .hamburger {
         top: 17px;
         right: 5%;
-    }
+    } */
 
     #inside-content {
         height: 570px;
@@ -559,5 +647,24 @@
 
     .footer-box {
         font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 353px) {
+    #inside-content {
+        height: 607px;
+    }
+
+    .logo img {
+        width: 69px;
+    }
+
+    .hamburger {
+        top: 12px;
+    }
+
+    .line {
+        width: 26px;
+        height: 2.5px;
     }
 }

@@ -1,18 +1,10 @@
 
-.top-container {
-    background-color: rgba(0, 0, 0, 0.85);
-
-}
-
-#navbar {
-    font-size: 1.1em;
-}
 
 #shop-bg {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 179px;
+    height: 188px;
     background-color: rgba(0, 0, 0, 0.65);
 }
 

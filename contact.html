@@ -36,14 +36,14 @@
                 width: 85%;
             }
 
-            .logo {
+            /* .logo {
                 width: 35%;
                 margin-right: 200px;
             }
 
             .hamburger {
                 top: 20px;
-            }
+            } */
 
             .form-btn .btn {
                 width: 63%;
@@ -55,10 +55,10 @@
                 width: 96%;
             }
 
-            .logo {
+            /* .logo {
                 width: 27%;
                 margin-right: 0;
-            }
+            } */
 
             .form-btn .btn {
                 font-size: 16px;
@@ -73,9 +73,9 @@
                 font-size: 14px;
             }
 
-            .logo {
+            /* .logo {
                 width: 30%;
-            }
+            } */
 
             .form-btn .btn {
                 width: 60%;
@@ -94,9 +94,9 @@
                 font-size: 14px;
             }
 
-            .logo {
+            /* .logo {
                 width: 33%;
-            }
+            } */
 
             .form-btn .btn {
                 width: 60%;
@@ -111,7 +111,7 @@
             }
         }
 
-        
+
         @media only screen and (max-width: 365px) {
 
             #contact {
@@ -123,9 +123,9 @@
                 font-size: 13px;
             }
 
-            .logo {
+            /* .logo {
                 width: 36%;
-            }
+            } */
 
             .form-btn .btn {
                 width: 60%;
@@ -141,13 +141,13 @@
         }
 
         @media only screen and (max-width: 330px) {
-            .logo {
+            /* .logo {
                 width: 42%;
             }
 
             .hamburger {
                 top: 16px;
-            }
+            } */
 
             .form-btn .btn {
                 width: 63%;
@@ -164,29 +164,26 @@
         }
     </style>
 
-    <div class="top-container">
-
+    <nav id="navbar">
         <div class="logo">
             <img onclick="home()" src="img/Shoez-logos_white.png" alt="">
         </div>
-        <nav id="navbar">
-            <ul class="nav-list v-class">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a class="current" href="contact.html">Contact</a></li>
-            </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a class="current" href="contact.html">Contact</a></li>
             <div onclick="login()" class="icons v-class">
                 <span class="material-icons">account_circle</span>LOGIN/REGISTER
             </div>
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-        </nav>
-    </div>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
 
     <section id="contact">
         <div class="container">

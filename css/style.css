@@ -11,11 +11,11 @@
     color: white;
 } */
 
-.top-container {
+/* .top-container {
     display: flex;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     background-color: #181a1b;
-    /* padding: 10px 0; */
+    padding: 10px 0;
     justify-content: space-around;
     align-items: center;
     position: sticky;
@@ -29,11 +29,11 @@
     justify-content: flex-start;
     margin-left: -10px;
     width: 12%;
-    /* border: 1px solid white; */
+    border: 1px solid white;
 }
 
 .logo img {
-    /* height: 124px; */
+    height: 124px;
     height: auto;
     max-width: 80%;
     cursor: pointer;
@@ -44,9 +44,9 @@
     justify-content: space-between;
     width: 50%;
     align-items: center;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     padding: 8px;
-    /* height: 8vh; */
+    height: 8vh;
 }
 
 #navbar ul {
@@ -54,7 +54,7 @@
 }
 
 #navbar ul li {
-    /* display: flex; */
+    display: flex;
     list-style: none;
     padding: 0 15px;
 }
@@ -102,11 +102,104 @@
     background-color: white;
     height: 4px;
     margin: 5px 3px;
+} */
+
+#navbar {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 8vh;
+    padding: 0 10px;
+    background-color: #181a1b;
 }
+
+.logo {
+    margin: 0 120px;
+    /* border: 1px solid white; */
+
+}
+
+.logo img {
+    height: auto;
+    width: 125px;
+    /* border: 1px solid white; */
+
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    /* border: 1px solid white; */
+
+}
+
+#navbar ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0 10px;
+    /* border: 1px solid white; */
+
+}
+
+#navbar ul li a {
+    color: rgba(253, 244, 244, 0.3);
+    text-decoration: none;
+    padding: 0 25px;
+    font-size: 1.3em;
+    transition: 0.5s;
+    /* border: 1px solid white; */
+
+}
+
+#navbar ul li a:hover:not(.current) {
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.icons {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(167, 151, 151);
+    font-size: 1.1em;
+    margin: 0 42px;
+    cursor: pointer;
+    transition: 0.5s;
+    /* border: 1px solid white; */
+
+}
+
+.icons:hover {
+    color: white;
+}
+
+.icons span {
+    padding: 0 5px;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 4%;
+    top: 10px;
+    display: none;
+}
+
+.line {
+    width: 30px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+/* Content */
 
 #inside-content {
     display: flex;
-    height: 658px;
+    height: 686px;
     color: white;
 }
 
@@ -116,7 +209,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 755px;
+    height: 774px;
     width: 100%;
     z-index: -1;
 }
