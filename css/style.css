@@ -103,9 +103,19 @@
 
 #inside-content {
     display: flex;
-    height: 90vh;
+    height: 658px;
     color: white;
+}
+
+#inside-content::before {
+    content: '';
     background-color: #181a1b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 755px;
+    width: 100%;
+    z-index: -1;
 }
 
 .head-container {
