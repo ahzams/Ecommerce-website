@@ -299,7 +299,7 @@
     }
 
     #shop-bg::before {
-        height: 311px;
+        height: 313px;
     }
 }
 
@@ -308,10 +308,6 @@
     /* #shop-bg {
         height: 191px;
     } */
-
-    #shop-bg::before {
-        height: 313px;
-    }
 
     .section2 .btn {
         font-size: 12px;
@@ -343,9 +339,9 @@
 }
 
 @media only screen and (max-width: 361px) {
-    #shop-bg::before {
+    /* #shop-bg::before {
         height: 310px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 353px) {
