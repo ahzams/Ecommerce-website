@@ -283,9 +283,9 @@
 
 @media only screen and (max-width: 445px) {
 
-    /* #shop-bg {
-        height: 196px;
-    } */
+    #shop-bg {
+        height: 204px;
+    }
     
     /* #shop-bg::before {
         height: 322px;
@@ -307,11 +307,11 @@
 
     /* #shop-bg {
         height: 191px;
-    }
+    } */
 
     #shop-bg::before {
-        height: 315px;
-    } */
+        height: 313px;
+    }
 
     .section2 .btn {
         font-size: 12px;
