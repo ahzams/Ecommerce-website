@@ -1,11 +1,11 @@
 @media only screen and (max-width: 1455px){
-    #navbar {
+    .navbar {
         font-size: 14px;
     }
 }
 
 @media only screen and (max-width: 1363px) {
-    #navbar ul {
+    .navbar ul {
         width: 66%;
     }
 
@@ -15,7 +15,7 @@
 }
 
 @media only screen and (max-width: 1346px){
-    #navbar ul {
+    .navbar ul {
         width: 70%;
     }
 
@@ -44,7 +44,7 @@
 }
 
 @media only screen and (max-width: 1267px){
-    #navbar ul {
+    .navbar ul {
         width: 75%;
     }
 
@@ -55,11 +55,11 @@
 
 
 @media only screen and (max-width: 1185px){
-    #navbar {
+    .navbar {
         font-size: 13px;
     }
     
-    #navbar ul li a {
+    .navbar ul li a {
         padding: 0 17px;
     }
     
@@ -69,7 +69,7 @@
 }
 
 @media only screen and (max-width: 1083px){
-    #navbar {
+    .navbar {
         font-size: 13px;
     }
 
@@ -77,18 +77,18 @@
         width: 104px;
     }
 
-   #navbar ul {
+   .navbar ul {
        width: 80%;
    }
 
-   #navbar ul li a {
+   .navbar ul li a {
        padding: 0 11px;
    }
 }
 
 @media only screen and (max-width: 1020px){
 
-    #navbar {
+    .navbar {
         font-size: 10.5px;
     }
 
@@ -160,12 +160,12 @@
         align-items: flex-start;
     } */
 
-    /* #navbar, #navbar ul {
+    /* .navbar, .navbar ul {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    #navbar {
+    .navbar {
         width: 20%;
     }
 
@@ -178,7 +178,7 @@
         padding: 5px 0px;
     }
 
-    #navbar ul li {
+    .navbar ul li {
         padding: 10px 0;
     } */
 
@@ -195,6 +195,9 @@
         top: 17px;
     }
 
+    .close {
+        display: block;
+    }
     /* .h-nav {
         height: 35vh;
     } */
@@ -202,17 +205,32 @@
     /* .v-class {
         opacity: 0;
     } */
-    
-    .v-class {
-        display: none;
+
+    .navbar ul{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #181a1b;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        width: 30%;
+        /* border: 1px solid white; */
+        font-size: 14px;
+        transition: 0.3s;
     }
 
-    #navbar ul {
-        display: none;
+    .navbar ul li a {
+        padding: 33px 0;
     }
 
-    .togle {
-        display: flex !important;
+    .icons {
+        padding: 33px 0;
+        color: rgba(253, 244, 244, 0.3);
+    }
+
+    .navGo {
+        transform: translateY(-100%);
     }
 
     .left-box {
@@ -351,19 +369,34 @@
     .hamburger {
         top: 15px;
     } */
+
+    .navbar ul {
+        width: 35%;
+    }
+
+    #close {
+        right: 27%;
+    }
     .right-box img {
         width: 95%;
     }
 }
 
 @media only screen and (max-width: 615px) {
-    /* #navbar {
+    /* .navbar {
         font-size: 11px;
     }
     .logo {
         width: 20%;
     } */
 
+    .navbar ul {
+        width: 40%;
+    }
+
+    #close {
+        right: 31%;
+    }
     .logo {
         margin: 3px 15px;
     }
@@ -393,7 +426,7 @@
 
 @media only screen and (max-width: 537px){
 
-    /* #navbar {
+    /* .navbar {
         width: 40%;
     }
     .logo {
@@ -443,6 +476,13 @@
 }
 
 @media only screen and (max-width: 496px){
+    .navbar ul {
+        width: 50%;
+    }
+
+    #close {
+        right: 40%;
+    }
     #inside-content {
         height: 605px;
     }
@@ -549,7 +589,7 @@
 }
 
 @media only screen and (max-width: 397px) {
-    /* #navbar {
+    /* .navbar {
         font-size: 10px;
         width: 50%;
     }
@@ -651,6 +691,14 @@
 }
 
 @media only screen and (max-width: 353px) {
+    .navbar ul{
+        font-size: 12px;
+        width: 100%;
+    }
+
+    #close {
+        right: 43%;
+    }
     #inside-content {
         height: 607px;
     }

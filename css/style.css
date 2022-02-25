@@ -5,6 +5,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 /* #upper-section {
     background-color: #181a1b;
     max-height: 100vh;
@@ -39,7 +41,7 @@
     cursor: pointer;
 }
 
-#navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     width: 50%;
@@ -49,17 +51,17 @@
     height: 8vh;
 }
 
-#navbar ul {
+.navbar ul {
     display: flex;
 }
 
-#navbar ul li {
+.navbar ul li {
     display: flex;
     list-style: none;
     padding: 0 15px;
 }
 
-#navbar ul li a {
+.navbar ul li a {
     text-decoration: none;
     color: rgba(253, 244, 244, 0.3);
     font-size: 1.15em;
@@ -67,7 +69,7 @@
     transition: 0.5s;
 }
 
-#navbar ul li a:hover:not(.current) {
+.navbar ul li a:hover:not(.current) {
     color: rgba(255, 255, 255, 0.89);
 }
 
@@ -104,7 +106,7 @@
     margin: 5px 3px;
 } */
 
-#navbar {
+.navbar {
     /* border: 1px solid white; */
     display: flex;
     align-items: center;
@@ -126,11 +128,12 @@
 .logo img {
     height: auto;
     width: 125px;
+    cursor: pointer;
     /* border: 1px solid white; */
 
 }
 
-#navbar ul {
+.navbar ul {
     display: flex;
     justify-content: center;
     width: 65%;
@@ -138,7 +141,7 @@
 
 }
 
-#navbar ul li {
+.navbar ul li {
     display: flex;
     align-items: center;
     list-style: none;
@@ -147,7 +150,7 @@
 
 }
 
-#navbar ul li a {
+.navbar ul li a {
     color: rgba(253, 244, 244, 0.3);
     text-decoration: none;
     padding: 0 25px;
@@ -157,7 +160,7 @@
 
 }
 
-#navbar ul li a:hover:not(.current) {
+.navbar ul li a:hover:not(.current) {
     color: rgba(255, 255, 255, 0.89);
 }
 
@@ -196,6 +199,14 @@
     background-color: white;
     height: 4px;
     margin: 5px 3px;
+}
+
+.close {
+    position: absolute;
+    cursor: pointer;
+    right: 24%;
+    color: white;
+    display: none;
 }
 
 /* Content */

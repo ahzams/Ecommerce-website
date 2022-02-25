@@ -83,9 +83,9 @@ function show_image(i) {
 }
 
 let imgBox = document.getElementById('imgBox')
-let cross = document.getElementById('cross')
+let close = document.getElementById('cross')
 
-cross.addEventListener('click', function() {
+close.addEventListener('click', function() {
     document.body.style.overflowY = "visible"
     imgBox.style.display = 'none'
 })

@@ -1,21 +1,19 @@
-let ham = document.querySelector('.hamburger')
-let topBox = document.querySelector('.top-container')
+let burger = document.querySelector('.hamburger')
+let ham = document.querySelector('.ham')
+let cross = document.querySelector('.close')
 let navList = document.querySelector('.nav-list')
-let icon = document.querySelector('.icons')
 
-
-// ham.addEventListener('click',function(){
-//     navList.classList.toggle('v-class')
-//     icon.classList.toggle('v-class')
-//     topBox.classList.toggle('h-nav')
-// })
-
-
-ham.addEventListener('click', function() {
-    if (window.innerWidth <= 880) {
-
-        navList.classList.toggle('togle')
+cross.style.display = 'none'
+burger.addEventListener('click', function () {
+    navList.classList.toggle('navGo')
+    if (navList.classList.contains('navGo')) {
+        ham.style.display = 'inline'
+        cross.style.display = 'none'
     }
-
-    icon.classList.toggle('v-class')
+    else {
+        ham.style.display = 'none'
+        setTimeout(() => {
+            cross.style.display = 'inline';
+        }, 350);
+    }
 })
