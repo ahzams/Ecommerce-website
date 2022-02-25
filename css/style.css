@@ -135,7 +135,7 @@
 
 .navbar ul {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     width: 65%;
     /* border: 1px solid white; */
 

@@ -215,6 +215,7 @@
         align-items: center;
         height: 100vh;
         width: 30%;
+        margin-top: 36px;
         /* border: 1px solid white; */
         font-size: 14px;
         transition: 0.3s;
