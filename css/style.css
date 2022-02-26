@@ -133,10 +133,14 @@
 
 }
 
+.nav-list {
+    display: flex;
+}
+
 .navbar ul {
     display: flex;
     /* justify-content: center; */
-    width: 65%;
+    /* width: 65%; */
     /* border: 1px solid white; */
 
 }
@@ -202,11 +206,8 @@
 }
 
 .close {
-    position: absolute;
-    cursor: pointer;
-    right: 24%;
+    opacity: 0;
     color: white;
-    display: none;
 }
 
 /* Content */

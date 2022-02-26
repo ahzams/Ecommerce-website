@@ -6,7 +6,7 @@
 
 @media only screen and (max-width: 1363px) {
     .navbar ul {
-        width: 66%;
+        /* width: 66%; */
     }
 
     .logo img {
@@ -16,7 +16,7 @@
 
 @media only screen and (max-width: 1346px){
     .navbar ul {
-        width: 70%;
+        /* width: 70%; */
     }
 
     .logo {
@@ -45,7 +45,7 @@
 
 @media only screen and (max-width: 1267px){
     .navbar ul {
-        width: 75%;
+        /* width: 75%; */
     }
 
     .logo img {
@@ -78,7 +78,7 @@
     }
 
    .navbar ul {
-       width: 80%;
+       /* width: 80%; */
    }
 
    .navbar ul li a {
@@ -196,7 +196,11 @@
     }
 
     .close {
-        display: block;
+        opacity: 1;
+        cursor: pointer;
+        margin: 15px 0px 15px 15px;
+        font-size: 20px;
+
     }
     /* .h-nav {
         height: 35vh;
@@ -206,29 +210,37 @@
         opacity: 0;
     } */
 
-    .navbar ul{
+    .navbar>.nav-list{
         position: absolute;
         right: 0;
+        z-index: 5;
         top: 0;
-        background-color: #181a1b;
+        background-color: #181a1bc2;
+        backdrop-filter: blur(4rem);
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
         height: 100vh;
-        width: 30%;
-        margin-top: 36px;
+        /* width: 30%; */
         /* border: 1px solid white; */
         font-size: 14px;
         transition: 0.3s;
     }
 
+    .nav-list ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .navbar ul li a {
-        padding: 33px 0;
+        color: rgba(253, 244, 244, 0.411);
+        padding: 26px 0;
         padding-bottom: 12px;
     }
 
     .icons {
         padding: 33px 0;
-        color: rgba(253, 244, 244, 0.3);
+        color: rgba(253, 244, 244, 0.411);
+
     }
 
     .navGo {
@@ -373,12 +385,9 @@
     } */
 
     .navbar ul {
-        width: 35%;
+        /* width: 35%; */
     }
 
-    #close {
-        right: 27%;
-    }
     .right-box img {
         width: 95%;
     }
@@ -393,12 +402,9 @@
     } */
 
     .navbar ul {
-        width: 40%;
+        /* width: 40%; */
     }
 
-    #close {
-        right: 31%;
-    }
     .logo {
         margin: 3px 15px;
     }
@@ -479,12 +485,9 @@
 
 @media only screen and (max-width: 496px){
     .navbar ul {
-        width: 50%;
+        /* width: 50%; */
     }
 
-    #close {
-        right: 40%;
-    }
     #inside-content {
         height: 605px;
     }
@@ -694,13 +697,13 @@
 
 @media only screen and (max-width: 353px) {
     .navbar ul{
-        font-size: 12px;
-        width: 100%;
+        font-size: 14px;
     }
 
-    #close {
-        right: 43%;
+    .nav-list {
+        width: 100%;
     }
+    
     #inside-content {
         height: 607px;
     }
