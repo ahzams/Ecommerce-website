@@ -179,73 +179,7 @@
     }
 }
 
-@media only screen and (max-width: 751px) {
-
-    /* #shop-bg::before {
-        height: 347px;
-    } */
-}
-
-@media only screen and (max-width: 720px) {
-
-    /* #shop-bg::before {
-        height: 348px;
-    } */
-}
-@media only screen and (max-width: 698px) {
-
-    /* #shop-bg::before {
-        height: 347px;
-    } */
-}
-
-@media only screen and (max-width: 679px) {
-
-    /* #shop-bg::before {
-        height: 345px;
-    } */
-}
-
-@media only screen and (max-width: 640px) {
-
-    /* #shop-bg {
-        height: 205px;
-    }
-
-    #shop-bg::before {
-        height: 329px;
-    } */
-}
-
-@media only screen and (max-width: 615px) {
-
-    /* #shop-bg {
-        height: 202px;
-    }
-    
-    #shop-bg::before {
-        height: 326px;
-    } */
-}
-
-@media only screen and (max-width: 597px) {
-
-    /* #shop-bg::before {
-        height: 319px;
-    } */
-
-}
-
 @media only screen and (max-width: 537px) {
-
-    /* #shop-bg {
-        height: 199px;
-    }
-    
-    #shop-bg::before {
-        height: 334px;
-    } */
-
     .items-head {
         font-size: 13px;
         margin: 5px;
@@ -256,40 +190,11 @@
     }
 }
 
-@media only screen and (max-width: 520px) {
-
-    /* #shop-bg::before {
-        height: 327px;
-    } */
-}
-
-@media only screen and (max-width: 487px) {
-
-    /* #shop-bg::before {
-        height: 325px;
-    } */
-}
-
-@media only screen and (max-width: 469px) {
-
-    /* #shop-bg::before {
-        height: 321px;
-    }
-
-    #shop-items {
-        margin: 50px 28px;
-    } */
-}
-
 @media only screen and (max-width: 445px) {
 
     #shop-bg {
         height: 204px;
     }
-    
-    /* #shop-bg::before {
-        height: 322px;
-    } */
 }
 
 @media only screen and (max-width: 410px) {
@@ -304,11 +209,6 @@
 }
 
 @media only screen and (max-width: 394px) {
-
-    /* #shop-bg {
-        height: 191px;
-    } */
-
     .section2 .btn {
         font-size: 12px;
     }
@@ -329,19 +229,6 @@
     .footer-box {
         font-size: 12px;
     }
-}
-
-@media only screen and (max-width: 374px){
-    
-    /* #shop-bg::before {
-        height: 312px;
-    } */
-}
-
-@media only screen and (max-width: 361px) {
-    /* #shop-bg::before {
-        height: 310px;
-    } */
 }
 
 @media only screen and (max-width: 353px) {

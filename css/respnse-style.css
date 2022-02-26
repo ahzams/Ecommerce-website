@@ -5,20 +5,12 @@
 }
 
 @media only screen and (max-width: 1363px) {
-    .navbar ul {
-        /* width: 66%; */
-    }
-
     .logo img {
         width: 120px;
     }
 }
 
 @media only screen and (max-width: 1346px){
-    .navbar ul {
-        /* width: 70%; */
-    }
-
     .logo {
         margin: 0 60px;
     }
@@ -44,10 +36,6 @@
 }
 
 @media only screen and (max-width: 1267px){
-    .navbar ul {
-        /* width: 75%; */
-    }
-
     .logo img {
         width: 110px;
     }
@@ -76,10 +64,6 @@
     .logo img {
         width: 104px;
     }
-
-   .navbar ul {
-       /* width: 80%; */
-   }
 
    .navbar ul li a {
        padding: 0 11px;
@@ -142,11 +126,8 @@
         font-size: 14px;
     }
 
-
-
     #discount {
         font-size: 12px;
-        /* height: 28vh; */
     }
 
     .subscribe {
@@ -155,33 +136,6 @@
 }
 
 @media only screen and (max-width: 880px){
-
-    /* .top-container {
-        align-items: flex-start;
-    } */
-
-    /* .navbar, .navbar ul {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbar {
-        width: 20%;
-    }
-
-    .logo {
-        margin-right: 350px;
-        width: 15%;
-    }
-
-    .icons {
-        padding: 5px 0px;
-    }
-
-    .navbar ul li {
-        padding: 10px 0;
-    } */
-
     .logo {
         margin: 3px 32px;
     }
@@ -202,14 +156,7 @@
         font-size: 20px;
 
     }
-    /* .h-nav {
-        height: 35vh;
-    } */
-
-    /* .v-class {
-        opacity: 0;
-    } */
-
+   
     .navbar>.nav-list{
         position: absolute;
         right: 0;
@@ -218,10 +165,7 @@
         background-color: #181a1bc2;
         backdrop-filter: blur(4rem);
         flex-direction: column;
-        /* align-items: center; */
         height: 100vh;
-        /* width: 30%; */
-        /* border: 1px solid white; */
         font-size: 14px;
         transition: 0.3s;
     }
@@ -240,7 +184,6 @@
     .icons {
         padding: 33px 0;
         color: rgba(253, 244, 244, 0.411);
-
     }
 
     .navGo {
@@ -264,7 +207,6 @@
 
     .bg {
         flex-direction: column;
- 
     }
  
     .footer-box {
@@ -287,17 +229,6 @@
 }
 
 @media only screen and (max-width: 798px) {
-
-    /* .logo {
-        margin-left: -15px;
-        padding: 5px;
-        width: 18%;
-    }
-
-    .hamburger {
-        top: 18px;
-    } */
-
    #inside-content {
        flex-direction: column;
        height: 646px;
@@ -324,10 +255,6 @@
        top: -250px;
        width: 75%;
    }
-
-   /* .right-box img{
-       max-width: 80%;
-   } */
 
    .buttons {
        display: flex;
@@ -376,35 +303,12 @@
 }
 
 @media only screen and (max-width: 646px) {
-    /* .logo {
-        margin-left: 10px;
-    }
-
-    .hamburger {
-        top: 15px;
-    } */
-
-    .navbar ul {
-        /* width: 35%; */
-    }
-
     .right-box img {
         width: 95%;
     }
 }
 
 @media only screen and (max-width: 615px) {
-    /* .navbar {
-        font-size: 11px;
-    }
-    .logo {
-        width: 20%;
-    } */
-
-    .navbar ul {
-        /* width: 40%; */
-    }
-
     .logo {
         margin: 3px 15px;
     }
@@ -433,21 +337,6 @@
 }
 
 @media only screen and (max-width: 537px){
-
-    /* .navbar {
-        width: 40%;
-    }
-    .logo {
-        margin-right: 150px;
-        width: 27%;
-        padding: 10px;
-    }
-
-    .hamburger {
-        top: 19px;
-        right: 5%;
-    } */
-
     #inside-content {
         height: 625px;
     }
@@ -484,10 +373,6 @@
 }
 
 @media only screen and (max-width: 496px){
-    .navbar ul {
-        /* width: 50%; */
-    }
-
     #inside-content {
         height: 605px;
     }
@@ -506,10 +391,6 @@
     #inside-content {
         height: 563px;
     }
-
-    /* .logo {
-        margin-left: 0px;
-    } */
 
     .left-box {
         font-size: 11.5px;
@@ -541,17 +422,6 @@
 }
 
 @media only screen and (max-width: 444px) {
-
-    /* .logo {
-        margin-left: 0px;
-        width: 34%;
-        padding: 10px;
-    }
-
-    .hamburger {
-        top: 18px;
-    } */
-
     .logo {
         margin: 3px 2px;
     }
@@ -594,15 +464,6 @@
 }
 
 @media only screen and (max-width: 397px) {
-    /* .navbar {
-        font-size: 10px;
-        width: 50%;
-    }
-
-    .logo {
-        width: 44%;
-    } */
-
     .hamburger {
         top: 14px;
     }
@@ -650,16 +511,6 @@
 }
 
 @media only screen and (max-width: 380px) {
-
-    /* .logo {
-        width: 66%;
-    }
-
-    .hamburger {
-        top: 17px;
-        right: 5%;
-    } */
-
     #inside-content {
         height: 570px;
     }

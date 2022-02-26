@@ -59,7 +59,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 25%; */
     overflow: hidden;
     transition: 0.5s;
 }
@@ -109,5 +108,4 @@
 #footer {
     background-image: url('bg-3.jpg');
     color: white;
-    /* height: 50vh; */
 }

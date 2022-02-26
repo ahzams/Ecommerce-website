@@ -5,109 +5,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
-
-/* #upper-section {
-    background-color: #181a1b;
-    max-height: 100vh;
-    color: white;
-} */
-
-/* .top-container {
-    display: flex;
-    border: 1px solid white;
-    background-color: #181a1b;
-    padding: 10px 0;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 40;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-left: -10px;
-    width: 12%;
-    border: 1px solid white;
-}
-
-.logo img {
-    height: 124px;
-    height: auto;
-    max-width: 80%;
-    cursor: pointer;
-}
+/* Navigation Bar */
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    align-items: center;
-    border: 1px solid white;
-    padding: 8px;
-    height: 8vh;
-}
-
-.navbar ul {
-    display: flex;
-}
-
-.navbar ul li {
-    display: flex;
-    list-style: none;
-    padding: 0 15px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: rgba(253, 244, 244, 0.3);
-    font-size: 1.15em;
-    padding: 5px 5px;
-    transition: 0.5s;
-}
-
-.navbar ul li a:hover:not(.current) {
-    color: rgba(255, 255, 255, 0.89);
-}
-
-.icons{
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    color: rgb(167, 151, 151);
-    font-size: 1em;
-    padding: 5px 8px;
-    transition: 0.4s;
-}
-
-.icons:hover {
-    color: white;
-}
-
-.icons span {
-    letter-spacing: 5px;
-}
-
-.hamburger {
-    position: absolute;
-    cursor: pointer;
-    right: 4%;
-    top: 10px;
-    display: none;
-}
-
-.line {
-    width: 30px;
-    background-color: white;
-    height: 4px;
-    margin: 5px 3px;
-} */
-
-.navbar {
-    /* border: 1px solid white; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -121,16 +21,12 @@
 
 .logo {
     margin: 0 120px;
-    /* border: 1px solid white; */
-
 }
 
 .logo img {
     height: auto;
     width: 125px;
     cursor: pointer;
-    /* border: 1px solid white; */
-
 }
 
 .nav-list {
@@ -139,10 +35,6 @@
 
 .navbar ul {
     display: flex;
-    /* justify-content: center; */
-    /* width: 65%; */
-    /* border: 1px solid white; */
-
 }
 
 .navbar ul li {
@@ -150,8 +42,6 @@
     align-items: center;
     list-style: none;
     padding: 0 10px;
-    /* border: 1px solid white; */
-
 }
 
 .navbar ul li a {
@@ -160,8 +50,6 @@
     padding: 0 25px;
     font-size: 1.3em;
     transition: 0.5s;
-    /* border: 1px solid white; */
-
 }
 
 .navbar ul li a:hover:not(.current) {
@@ -178,8 +66,6 @@
     margin: 0 42px;
     cursor: pointer;
     transition: 0.5s;
-    /* border: 1px solid white; */
-
 }
 
 .icons:hover {
@@ -248,10 +134,6 @@
     top: 10em;
 }
 
-
-
-
-
 .buttons {
     padding: 30px 0px;
 }
@@ -302,17 +184,16 @@
 }
 
 .right-box img {
-    /* display: inline-block;
-    vertical-align: middle; */
     height: auto;
     max-width: 100%;
     position: relative;
     top: -400px;
 }
 
+/* Products */
+
 #Products {
     display: flex;
-    /* border: 1px solid black; */
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -418,28 +299,9 @@
     transform: translateY(0px);
 }
 
-
-/* 
-#radio1:hover~.first {
-    background-color: red;
-    margin-left: 0;
-}
-
-#radio2:hover~.first {
-    margin-left: -20%;
-}
-
-#radio3:hover~.first {
-    margin-left: -40%;
-}
-
-#radio4:hover~.first {
-    margin-left: -90%;
-} */
+/* Featured-Section */
 
 #featured {
-    /* border: 1px solid black; */
-
     display: flex;
     justify-content: center;
     margin: 60px 0px;
@@ -451,7 +313,6 @@
     justify-content: center;
     padding: 10px 25px;
     padding-right: 0;
-    /* border: 1px solid black; */
 }
 
 .head {
@@ -462,7 +323,6 @@
     width: 7%;
     background-color: #f75b5b;
     padding: 1px;
-    /* margin-left: 100px; */
     margin: 20px 100px;
 }
 
@@ -507,7 +367,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
 }
 
 #right-section img {
@@ -539,26 +398,23 @@
     background-color: #f75b5be3;
 }
 
-/* Footer */
+/* Footer-Section*/
 
 #footer {
     background: url('img-css/bg-3.jpg') no-repeat center center/cover;
     color: white;
-    /* max-height: 45vh; */
 }
 
 .bg {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* height: 45vh; */
     background-color: black;
     opacity: 0.85;
 }
 
 .footer-box {
     margin: 50px 25px;
-    /* border: 1px solid white; */
     padding: 10px 12px;
 }
 

@@ -1,3 +1,4 @@
+
 let desc = document.querySelector('.information')
 let add_info = document.querySelector('.add-info')
 let reviews = document.querySelector('.reviews')
